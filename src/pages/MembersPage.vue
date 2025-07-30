@@ -50,7 +50,7 @@
                   <div class="lg:w-64 h-64 lg:h-auto bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 relative flex-shrink-0 flex items-center justify-center">
                     <div v-if="member.avatar" class="w-full h-full">
                       <img
-                        :src="member.avatar"
+                        :src="getImageUrl(member.avatar)"
                         :alt="member.name"
                         class="w-full h-full object-cover"
                       />
@@ -142,7 +142,7 @@
                 <div class="relative h-32 bg-gradient-to-br from-purple-400 to-pink-400 flex items-center justify-center">
                   <div v-if="member.avatar" class="w-full h-full">
                     <img
-                      :src="member.avatar"
+                      :src="getImageUrl(member.avatar)"
                       :alt="member.name"
                       class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                     />
@@ -205,7 +205,7 @@
               <div class="w-full h-80 bg-gradient-to-br from-indigo-500 via-purple-500 to-pink-500 rounded-xl flex items-center justify-center mb-4 relative">
                 <div v-if="selectedMember.avatar" class="w-full h-full rounded-xl overflow-hidden">
                   <img
-                    :src="selectedMember.avatar"
+                    :src="getImageUrl(selectedMember.avatar)"
                     :alt="selectedMember.name"
                     class="w-full h-full object-cover"
                   />
@@ -354,6 +354,12 @@ interface Member {
 const selectedRole = ref('全部')
 const selectedMember = ref<Member | null>(null)
 const members = ref<Member[]>([])
+
+// 辅助函数：获取正确的图片路径
+const getImageUrl = (imagePath: string) => {
+  if (!imagePath) return ''
+  return `${import.meta.env.BASE_URL}${imagePath}`
+}
 
 // 获取成员类别
 const getCategory = (position: string): string => {
