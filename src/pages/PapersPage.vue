@@ -183,9 +183,6 @@
               <span class="mx-2">•</span>
               <span>{{ selectedPaper.year }}年</span>
             </div>
-                {{ selectedPaper.type }}
-              </span>
-            </div>
           </div>
           
           <!-- Abstract -->
