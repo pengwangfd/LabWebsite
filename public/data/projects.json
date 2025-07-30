@@ -3,7 +3,7 @@
     "title": "大规模时间序列分析平台搭建及应用研究",
     "description": "与赛可智能科技合作项目，构建大规模时间序列数据分析平台，应用于智能车等时序数据分析场景。",
     "time": "2024.04",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=time%20series%20analysis%20platform%20intelligent%20vehicle%20data%20analytics&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/3B82F6/FFFFFF?text=Time+Series+Analysis",
     "details": "构建高效的时间序列数据管理和分析平台，支持大规模时序数据的实时处理和分析，为智能车、工业IoT等领域提供高效的时序数据分析解决方案。",
     "links": []
   },
@@ -11,7 +11,7 @@
     "title": "智维大模型联合实验室",
     "description": "与中国移动共同成立的联合实验室，致力于构建各个领域的运维智能体，支持自动故障定位和排障。",
     "time": "2023.01",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=intelligent%20operations%20AI%20agent%20large%20language%20model%20automation&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/10B981/FFFFFF?text=AI+Operations",
     "details": "与中国移动深度合作，共同推进智能运维技术的产业化应用，通过大规模排障指令数据，全参数微调大模型，增强面向运维的规划能力和工具调用准确性。",
     "links": []
   },
@@ -19,7 +19,7 @@
     "title": "制造大数据分析关键技术与算法",
     "description": "科技部重点研发计划项目，研究面向制造业的大数据分析关键技术，包括时序数据挖掘、工况识别、故障预测等核心算法。",
     "time": "2023.10",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=manufacturing%20big%20data%20analysis%20industrial%20IoT%20time%20series%20analytics&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/F59E0B/FFFFFF?text=Manufacturing+Data",
     "details": "研究面向制造业的大数据分析关键技术，包括时序数据挖掘、工况识别、故障预测等核心算法，在高铁、船舶、卫星、汽车等制造领域的沪东中华、铁科院、上汽等企业落地应用。",
     "links": []
   },
@@ -27,7 +27,7 @@
     "title": "智能运维算法研究",
     "description": "与上海擎创信息技术有限公司合作项目，研究面向企业级应用的智能运维算法和系统。",
     "time": "2021.03",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=intelligent%20operations%20algorithms%20enterprise%20systems%20automation&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF?text=Enterprise+Operations",
     "details": "开发适用于企业级IT系统的智能运维算法，提升运维自动化水平，相关算法已集成到企业运维平台中，为多家客户提供智能运维服务。",
     "links": []
   },
@@ -35,7 +35,7 @@
     "title": "告警因果关系挖掘和根因定位技术",
     "description": "与华为合作的智能运维项目，研究告警数据的因果关系挖掘和根因定位算法，提升运维效率。",
     "time": "2020.10",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=alert%20root%20cause%20analysis%20intelligent%20operations%20causal%20mining&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/EF4444/FFFFFF?text=Alert+Analysis",
     "details": "研究告警数据的因果关系挖掘和根因定位算法，通过基于内容和时序的告警收敛、拓扑关联分析等技术，在华为无线网络、公有云等场景成功落地，显著提升运维效率。",
     "links": []
   },
@@ -43,7 +43,7 @@
     "title": "Apache IoTDB时间序列数据库",
     "description": "参与Apache顶级开源项目IoTDB的开发，贡献时间序列数据管理和查询优化技术。",
     "time": "2018.01",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=apache%20iotdb%20time%20series%20database%20open%20source%20project&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/06B6D4/FFFFFF?text=Apache+IoTDB",
     "details": "参与Apache顶级开源项目IoTDB的开发，贡献KV-match子序列匹配算法、查询优化技术等，作为专为物联网设计的时间序列数据库，在全球范围内被广泛使用。",
     "links": [
       {
@@ -60,7 +60,7 @@
     "title": "大规模监测型时间序列历史数据查询分析",
     "description": "国家自然科学基金面上项目，研究大规模时间序列数据的高效查询和分析关键技术。",
     "time": "2020.12",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=large%20scale%20time%20series%20query%20analysis%20monitoring%20data&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/84CC16/FFFFFF?text=Time+Series+Query",
     "details": "针对大规模监测型时间序列数据的存储、索引和查询优化问题进行深入研究，提出DSTree索引结构和Dumpy索引算法等，相关成果被VLDB综述论文评为最推荐算法。",
     "links": []
   },
@@ -68,7 +68,7 @@
     "title": "面向工业应用的大数据分析理论与关键技术",
     "description": "国家自然科学基金联合基金重点项目，研究工业大数据的理论基础和关键技术，构建完整的工业大数据分析体系。",
     "time": "2019.12",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=industrial%20big%20data%20analysis%20theory%20algorithms%20research&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/F97316/FFFFFF?text=Industrial+Analytics",
     "details": "建立工业大数据分析的理论体系，开发关键技术和算法，为工业4.0提供数据分析支撑，相关技术在华为、阿里、上汽等多家企业得到应用，产生显著经济效益。",
     "links": []
   },
@@ -76,7 +76,7 @@
     "title": "桥梁隧道安全预警平台关键技术研究",
     "description": "上海市科技创新行动计划项目，基于数据挖掘技术构建桥梁隧道安全预警平台。",
     "time": "2015.12",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=bridge%20tunnel%20safety%20warning%20system%20structural%20monitoring&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/DC2626/FFFFFF?text=Safety+Monitoring",
     "details": "基于数据挖掘技术构建桥梁隧道安全预警平台，通过结构健康监测数据分析、异常模式识别等技术，为城市基础设施安全提供技术支撑。",
     "links": []
   },
@@ -84,7 +84,7 @@
     "title": "基于MapReduce的快速查询和分析关键技术",
     "description": "国家青年自然科学基金项目，研究基于MapReduce框架的大数据快速查询和分析技术。",
     "time": "2014.12",
-    "imageUrl": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=mapreduce%20big%20data%20query%20analysis%20distributed%20computing&image_size=landscape_16_9",
+    "imageUrl": "https://via.placeholder.com/400x225/7C3AED/FFFFFF?text=MapReduce+Analytics",
     "details": "研究基于MapReduce框架的大数据快速查询和分析技术，通过查询优化算法、分布式索引结构设计等技术创新，为后续大数据查询技术奠定基础。",
     "links": []
   }
