@@ -77,7 +77,7 @@ const footerData = ref<FooterData | null>(null)
 
 onMounted(async () => {
   try {
-    const response = await fetch('/data/home.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data/home.json`)
     const data = await response.json()
     footerData.value = data.footer
   } catch (error) {

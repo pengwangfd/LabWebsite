@@ -214,7 +214,7 @@ const closeProjectModal = () => {
 
 const loadProjects = async () => {
   try {
-    const response = await fetch('/data/projects.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data/projects.json`)
     const data = await response.json()
     projects.value = data
   } catch (error) {

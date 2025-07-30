@@ -165,7 +165,7 @@ const closeNewsDetail = () => {
 
 const loadNewsData = async () => {
   try {
-    const response = await fetch('/data/news.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data/news.json`)
     newsData.value = await response.json()
   } catch (error) {
     console.error('Failed to load news data:', error)

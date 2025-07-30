@@ -372,7 +372,7 @@ const copyCitation = async (citation: string) => {
 
 const loadPapers = async () => {
   try {
-    const response = await fetch('/data/papers.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data/papers.json`)
     const data = await response.json()
     papers.value = data
   } catch (error) {

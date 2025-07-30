@@ -240,7 +240,7 @@ const formatDate = (dateString: string) => {
 
 const loadHomeData = async () => {
   try {
-    const response = await fetch('/data/home.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data/home.json`)
     const data = await response.json()
     homeData.value = data
   } catch (error) {
@@ -251,22 +251,22 @@ const loadHomeData = async () => {
 const loadStats = async () => {
   try {
     // Load members count
-    const membersResponse = await fetch('/data/members.json')
+    const membersResponse = await fetch(`${import.meta.env.BASE_URL}data/members.json`)
     const membersData = await membersResponse.json()
     stats.value.members = membersData.length
 
     // Load papers count
-    const papersResponse = await fetch('/data/papers.json')
+    const papersResponse = await fetch(`${import.meta.env.BASE_URL}data/papers.json`)
     const papersData = await papersResponse.json()
     stats.value.papers = papersData.length
 
     // Load projects count
-    const projectsResponse = await fetch('/data/projects.json')
+    const projectsResponse = await fetch(`${import.meta.env.BASE_URL}data/projects.json`)
     const projectsData = await projectsResponse.json()
     stats.value.projects = projectsData.length
 
     // Load news count and latest news
-    const newsResponse = await fetch('/data/news.json')
+    const newsResponse = await fetch(`${import.meta.env.BASE_URL}data/news.json`)
     const newsData = await newsResponse.json()
     stats.value.news = newsData.length
     latestNews.value = newsData.slice(0, 3) // Get latest 3 news

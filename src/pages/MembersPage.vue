@@ -495,7 +495,7 @@ const closeMemberDetail = () => {
 
 const loadMembers = async () => {
   try {
-    const response = await fetch('/data/members.json')
+    const response = await fetch(`${import.meta.env.BASE_URL}data/members.json`)
     const data = await response.json()
     members.value = data
   } catch (error) {
