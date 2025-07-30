@@ -64,12 +64,7 @@
                       <Calendar class="h-4 w-4 mr-2" />
                       <span class="text-sm font-medium text-purple-600">{{ paper.venue }}</span>
                       <span class="mx-2">•</span>
-                      <span class="text-sm">{{ paper.year }}</span>
-                      <span v-if="paper.ccfRank" class="mx-2">•</span>
-                      <span v-if="paper.ccfRank === 'CCF-A'" class="inline-flex items-center bg-red-100 text-red-800 text-xs px-2.5 py-1 rounded-full font-medium">
-                         🏆 {{ paper.ccfRank }}
-                       </span>
-                       <span v-else-if="paper.ccfRank" class="text-sm font-medium" :class="getCCFRankColor(paper.ccfRank)">{{ paper.ccfRank }}</span>
+                      <span class="text-sm">{{ paper.year }}年</span>
                     </div>
                     
                     <!-- Description -->
@@ -186,18 +181,8 @@
               <Calendar class="h-5 w-5 mr-2" />
               <span class="font-medium text-purple-600">{{ selectedPaper.venue }}</span>
               <span class="mx-2">•</span>
-              <span>{{ selectedPaper.year }}</span>
-              <span v-if="selectedPaper.ccfRank" class="mx-2">•</span>
-              <span v-if="selectedPaper.ccfRank" class="font-medium" :class="getCCFRankColor(selectedPaper.ccfRank)">{{ selectedPaper.ccfRank }}</span>
-              <span class="mx-2">•</span>
-              <span
-                class="inline-flex items-center px-2 py-1 rounded-full text-xs font-medium"
-                :class="{
-                  'bg-red-100 text-red-800': selectedPaper.type === 'Conference',
-                  'bg-blue-100 text-blue-800': selectedPaper.type === 'Journal',
-                  'bg-green-100 text-green-800': selectedPaper.type === 'Workshop'
-                }"
-              >
+              <span>{{ selectedPaper.year }}年</span>
+            </div>
                 {{ selectedPaper.type }}
               </span>
             </div>
@@ -304,7 +289,6 @@ interface Paper {
   venue: string
   year: number
   type: 'Conference' | 'Journal' | 'Workshop'
-  ccfRank?: string
   abstract: string
   keywords: string[]
   pdfUrl?: string
@@ -332,18 +316,7 @@ const filteredPapers = computed(() => {
   return papers.value.filter(paper => paper.category === selectedCategory.value)
 })
 
-const getCCFRankColor = (rank: string) => {
-  switch (rank) {
-    case 'CCF-A':
-      return 'text-red-600'
-    case 'CCF-B':
-      return 'text-orange-600'
-    case 'CCF-C':
-      return 'text-yellow-600'
-    default:
-      return 'text-gray-600'
-  }
-}
+
 
 const openPaperDetail = (paper: Paper) => {
   selectedPaper.value = paper

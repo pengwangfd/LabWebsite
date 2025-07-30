@@ -49,7 +49,7 @@
                     <!-- Project Details -->
                      <div class="flex items-center text-sm text-gray-600 mb-3">
                        <Calendar class="h-4 w-4 mr-2" />
-                       <span>{{ project.time }}</span>
+                       <span>{{ formatProjectTime(project.time) }}</span>
                      </div>
                     
                     <!-- Description -->
@@ -126,7 +126,7 @@
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mb-6">
               <div class="flex items-center text-gray-600">
                 <Calendar class="h-5 w-5 mr-2" />
-                <span class="ml-1">{{ selectedProject.time }}</span>
+                <span class="ml-1">{{ formatProjectTime(selectedProject.time) }}</span>
               </div>
             </div>
             
@@ -201,6 +201,16 @@ const projects = ref<Project[]>([])
 const filteredProjects = computed(() => {
   return projects.value
 })
+
+const formatProjectTime = (timeStr: string) => {
+  // 处理包含起始和结束时间的格式，如 "2020.11-2023.10"
+  if (timeStr.includes('-')) {
+    const [start, end] = timeStr.split('-')
+    return `${start.trim()} - ${end.trim()}`
+  }
+  // 处理单一时间格式
+  return timeStr
+}
 
 const showProjectDetails = (project: Project) => {
   selectedProject.value = project

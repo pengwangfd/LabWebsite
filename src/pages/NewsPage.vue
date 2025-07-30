@@ -146,7 +146,10 @@ const selectedNews = ref<NewsItem | null>(null)
 const newsData = ref<NewsItem[]>([])
 
 const filteredNews = computed(() => {
-  return newsData.value
+  // 按时间排序，最新的在前
+  return newsData.value.sort((a, b) => {
+    return new Date(b.date).getTime() - new Date(a.date).getTime()
+  })
 })
 
 const formatDate = (dateString: string) => {

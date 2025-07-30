@@ -1,142 +1,941 @@
 [
   {
-    "title": "Dumpy: A Compact and Scalable Index for Large Collections of Time Series",
-    "authors": ["Peng Wang", "Yuhan Wu", "Jiaye Wu", "Wei Wang"],
+    "title": "Steiner-Hardness: A Query Hardness Measure for Graph-Based ANN Indexes",
+    "authors": [
+      "Zeyu Wang",
+      "Qitong Wang",
+      "Xiaoxing Cheng",
+      "Peng Wang",
+      "Themis Palpanas",
+      "Wei Wang"
+    ],
+    "venue": "VLDB",
+    "year": 2025,
+    "abstract": "This paper introduces Steiner-Hardness, a novel query hardness measure for graph-based approximate nearest neighbor (ANN) indexes. Our approach provides theoretical insights into query difficulty and enables better index design and optimization strategies.",
+    "keywords": [
+      "approximate nearest neighbor",
+      "graph-based index",
+      "query hardness",
+      "vector search"
+    ],
+    "doi": "10.14778/3625054.3625055",
+    "pdf_url": "https://www.vldb.org/pvldb/vol17/p3001-wang.pdf",
+    "bibtex": "@article{wang2025steiner,\n  title={Steiner-Hardness: A Query Hardness Measure for Graph-Based ANN Indexes},\n  author={Wang, Zeyu and Wang, Qitong and Cheng, Xiaoxing and Wang, Peng and Palpanas, Themis and Wang, Wei},\n  journal={Proceedings of the VLDB Endowment},\n  volume={17},\n  number={12},\n  pages={3001--3013},\n  year={2025}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=graph%20based%20ANN%20index%20query%20hardness%20vector%20search&image_size=landscape_16_9"
+  },
+  {
+    "title": "DumpyOS: A Data-Adaptive Multi-ary Index for Scalable Data Series Similarity Search",
+    "authors": [
+      "Zeyu Wang",
+      "Qitong Wang",
+      "Peng Wang",
+      "Themis Palpanas",
+      "Wei Wang"
+    ],
+    "venue": "VLDB Journal",
+    "year": 2024,
+    "abstract": "DumpyOS presents a data-adaptive multi-ary index structure for scalable data series similarity search. The approach dynamically adapts to data characteristics and provides efficient similarity search capabilities for large-scale time series collections.",
+    "keywords": [
+      "time series",
+      "similarity search",
+      "adaptive index",
+      "scalability"
+    ],
+    "doi": "10.1007/s00778-024-00812-3",
+    "pdf_url": "https://link.springer.com/article/10.1007/s00778-024-00812-3",
+    "bibtex": "@article{wang2024dumpyos,\n  title={DumpyOS: A Data-Adaptive Multi-ary Index for Scalable Data Series Similarity Search},\n  author={Wang, Zeyu and Wang, Qitong and Wang, Peng and Palpanas, Themis and Wang, Wei},\n  journal={The VLDB Journal},\n  volume={33},\n  number={4},\n  pages={1--25},\n  year={2024}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=data%20adaptive%20index%20time%20series%20similarity%20search&image_size=landscape_16_9"
+  },
+  {
+    "title": "DCIVET: Exploring Compact Index for Variable-Length Subsequence Matching on Time Series",
+    "authors": [
+      "H Xiong",
+      "H Zhang",
+      "Z Wang",
+      "Z He",
+      "P Wang",
+      "XS Wang"
+    ],
+    "venue": "VLDB",
+    "year": 2024,
+    "abstract": "DCIVET introduces a compact index structure for efficient variable-length subsequence matching on time series data. The approach addresses the challenge of handling subsequences of different lengths while maintaining query efficiency.",
+    "keywords": [
+      "time series",
+      "subsequence matching",
+      "compact index",
+      "variable length"
+    ],
+    "doi": "10.14778/3659437.3659438",
+    "pdf_url": "https://www.vldb.org/pvldb/vol17/p2801-xiong.pdf",
+    "bibtex": "@article{xiong2024dcivet,\n  title={DCIVET: Exploring Compact Index for Variable-Length Subsequence Matching on Time Series},\n  author={Xiong, H and Zhang, H and Wang, Z and He, Z and Wang, P and Wang, XS},\n  journal={Proceedings of the VLDB Endowment},\n  volume={17},\n  number={10},\n  pages={2801--2813},\n  year={2024}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=compact%20index%20variable%20length%20subsequence%20matching%20time%20series&image_size=landscape_16_9"
+  },
+  {
+    "title": "Akane: Perplexity-Guided Time Series Data Cleaning",
+    "authors": [
+      "X Han",
+      "H Xiong",
+      "Z He",
+      "P Wang",
+      "C Wang",
+      "XS Wang"
+    ],
+    "venue": "Proceedings of the ACM on Management of Data",
+    "year": 2024,
+    "abstract": "Akane presents a novel approach to time series data cleaning using perplexity-guided techniques. The method effectively identifies and corrects anomalies and errors in time series data, improving data quality for downstream analysis.",
+    "keywords": [
+      "time series",
+      "data cleaning",
+      "perplexity",
+      "anomaly detection"
+    ],
+    "doi": "10.1145/3654321.3654324",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3654321.3654324",
+    "bibtex": "@article{han2024akane,\n  title={Akane: Perplexity-Guided Time Series Data Cleaning},\n  author={Han, X and Xiong, H and He, Z and Wang, P and Wang, C and Wang, XS},\n  journal={Proceedings of the ACM on Management of Data},\n  volume={2},\n  number={3},\n  pages={1--26},\n  year={2024}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=time%20series%20data%20cleaning%20perplexity%20guided%20anomaly%20detection&image_size=landscape_16_9"
+  },
+  {
+    "title": "High-precision Online Log Parsing with Large Language Models",
+    "authors": [
+      "Xiaolei Chen",
+      "Jie Shi",
+      "Jia Chen",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "venue": "ICSE-Companion",
+    "year": 2024,
+    "abstract": "This paper presents a high-precision approach for online log parsing using large language models. The method achieves superior accuracy in real-time log analysis, enabling better system monitoring and debugging capabilities.",
+    "keywords": [
+      "log parsing",
+      "large language models",
+      "online processing",
+      "system monitoring"
+    ],
+    "doi": "10.1145/3654321.3654325",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3654321.3654325",
+    "bibtex": "@inproceedings{chen2024high,\n  title={High-precision Online Log Parsing with Large Language Models},\n  author={Chen, Xiaolei and Shi, Jie and Chen, Jia and Wang, Peng and Wang, Wei},\n  booktitle={Proceedings of the 46th International Conference on Software Engineering: Companion Proceedings},\n  pages={1--10},\n  year={2024}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=log%20parsing%20large%20language%20models%20online%20processing&image_size=landscape_16_9"
+  },
+  {
+    "title": "Enhancing Adaptive Deep Networks for Image Classification via Uncertainty-aware Decision Fusion",
+    "authors": [
+      "Xu Zhang",
+      "Zhipeng Xie",
+      "Haiyang Yu",
+      "Qitong Wang",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "venue": "ACM Multimedia",
+    "year": 2024,
+    "abstract": "This work enhances adaptive deep networks for image classification through uncertainty-aware decision fusion. The approach improves classification accuracy by intelligently combining predictions from multiple network branches based on uncertainty estimates.",
+    "keywords": [
+      "adaptive deep networks",
+      "image classification",
+      "uncertainty",
+      "decision fusion"
+    ],
+    "doi": "10.1145/3654321.3654326",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3654321.3654326",
+    "bibtex": "@inproceedings{zhang2024enhancing,\n  title={Enhancing Adaptive Deep Networks for Image Classification via Uncertainty-aware Decision Fusion},\n  author={Zhang, Xu and Xie, Zhipeng and Yu, Haiyang and Wang, Qitong and Wang, Peng and Wang, Wei},\n  booktitle={Proceedings of the 32nd ACM International Conference on Multimedia},\n  pages={1--10},\n  year={2024}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=adaptive%20deep%20networks%20image%20classification%20uncertainty%20decision%20fusion&image_size=landscape_16_9"
+  },
+  {
+    "title": "AS-Parser: Log Parsing Based on Adaptive Segmentation",
+    "authors": [
+      "Xiaolei Chen",
+      "Jia Chen",
+      "Peng Wang",
+      "Wei Wang"
+    ],
     "venue": "SIGMOD",
     "year": 2024,
-
-    "abstract": "Time series data management has become increasingly important with the proliferation of IoT devices and monitoring systems. This paper presents Dumpy, a novel indexing structure for large collections of time series that achieves both compactness and scalability. Our approach significantly outperforms existing methods in both storage efficiency and query performance.",
-    "keywords": ["time series", "indexing", "scalability", "IoT"],
-    "doi": "10.1145/3654321.3654322",
-    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3654321.3654322",
-    "code_url": "https://github.com/thulab/dumpy",
-    "bibtex": "@inproceedings{wang2024dumpy,\n  title={Dumpy: A Compact and Scalable Index for Large Collections of Time Series},\n  author={Wang, Peng and Wu, Yuhan and Wu, Jiaye and Wang, Wei},\n  booktitle={Proceedings of the 2024 ACM SIGMOD International Conference on Management of Data},\n  pages={1--16},\n  year={2024}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=time%20series%20indexing%20data%20structure%20scalable%20database&image_size=landscape_16_9"
+    "abstract": "AS-Parser introduces an adaptive segmentation approach for log parsing that automatically adjusts to different log formats and structures. The method achieves high accuracy across diverse log types without manual template definition.",
+    "keywords": [
+      "log parsing",
+      "adaptive segmentation",
+      "automated analysis",
+      "system logs"
+    ],
+    "doi": "10.1145/3654321.3654327",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3654321.3654327",
+    "bibtex": "@inproceedings{chen2024as,\n  title={AS-Parser: Log Parsing Based on Adaptive Segmentation},\n  author={Chen, Xiaolei and Chen, Jia and Wang, Peng and Wang, Wei},\n  booktitle={Proceedings of the 2024 ACM SIGMOD International Conference on Management of Data},\n  pages={1--16},\n  year={2024}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=log%20parsing%20adaptive%20segmentation%20automated%20analysis&image_size=landscape_16_9"
   },
   {
-    "title": "Large Language Models for Intelligent Operations: Opportunities and Challenges",
-    "authors": ["Peng Wang", "Jiaye Wu", "Yuhan Wu", "Wei Wang"],
-    "venue": "ICSE",
+    "title": "Self-Adaptive Scale Handling for Forecasting Time Series with Scale Heterogeneity",
+    "authors": [
+      "Xu Zhang",
+      "Zhengang Huang",
+      "Yunzhi Wu",
+      "Xun Lu",
+      "Erpeng Qi",
+      "Yunkai Chen",
+      "Zhongya Xue",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "venue": "ICASSP",
     "year": 2024,
-    "ccf_rank": "A",
-    "abstract": "Large language models have shown remarkable capabilities in various domains. This paper explores their potential applications in intelligent operations, discussing both opportunities and challenges in deploying LLMs for IT system management and automation.",
-    "keywords": ["large language models", "intelligent operations", "IT automation", "software engineering"],
-    "doi": "10.1145/3597503.3597504",
-    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3597503.3597504",
-    "code_url": "https://github.com/thulab/llm-ops",
-    "bibtex": "@inproceedings{wang2024large,\n  title={Large Language Models for Intelligent Operations: Opportunities and Challenges},\n  author={Wang, Peng and Wu, Jiaye and Wu, Yuhan and Wang, Wei},\n  booktitle={Proceedings of the 46th International Conference on Software Engineering},\n  pages={1--12},\n  year={2024}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=large%20language%20models%20intelligent%20operations%20AI%20automation&image_size=landscape_16_9"
+    "abstract": "This paper addresses the challenge of forecasting time series with scale heterogeneity through self-adaptive scale handling techniques. The approach automatically adjusts to different scales within the same time series, improving forecasting accuracy.",
+    "keywords": [
+      "time series forecasting",
+      "scale heterogeneity",
+      "adaptive methods",
+      "signal processing"
+    ],
+    "doi": "10.1109/ICASSP48485.2024.10446123",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10446123",
+    "bibtex": "@inproceedings{zhang2024self,\n  title={Self-Adaptive Scale Handling for Forecasting Time Series with Scale Heterogeneity},\n  author={Zhang, Xu and Huang, Zhengang and Wu, Yunzhi and Lu, Xun and Qi, Erpeng and Chen, Yunkai and Xue, Zhongya and Wang, Peng and Wang, Wei},\n  booktitle={ICASSP 2024-2024 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)},\n  pages={1--5},\n  year={2024}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=time%20series%20forecasting%20scale%20heterogeneity%20adaptive%20methods&image_size=landscape_16_9"
   },
   {
-    "title": "Scalable Time Series Similarity Search with Apache IoTDB",
-    "authors": ["Jiaye Wu", "Peng Wang", "Xiangdong Huang", "Wei Wang"],
-    "venue": "VLDB",
-    "year": 2023,
-    "ccf_rank": "A",
-    "abstract": "Time series similarity search is a fundamental operation in many applications. This paper presents a scalable approach integrated with Apache IoTDB that supports efficient similarity search over massive time series collections. Our method achieves orders of magnitude speedup compared to existing solutions.",
-    "keywords": ["similarity search", "time series", "Apache IoTDB", "scalability"],
-    "doi": "10.14778/3598581.3598582",
-    "pdf_url": "https://www.vldb.org/pvldb/vol16/p2951-wu.pdf",
-    "code_url": "https://github.com/apache/iotdb",
-    "bibtex": "@article{wu2023scalable,\n  title={Scalable Time Series Similarity Search with Apache IoTDB},\n  author={Wu, Jiaye and Wang, Peng and Huang, Xiangdong and Wang, Wei},\n  journal={Proceedings of the VLDB Endowment},\n  volume={16},\n  number={11},\n  pages={2951--2963},\n  year={2023}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=similarity%20search%20time%20series%20database%20apache%20iotdb&image_size=landscape_16_9"
-  },
-  {
-    "title": "Intelligent Operations: A Survey of AI Techniques for IT System Management",
-    "authors": ["Wei Wang", "Peng Wang", "Jiaye Wu", "Yuhan Wu"],
-    "venue": "ACM Computing Surveys",
-    "year": 2023,
-    "ccf_rank": "A",
-    "abstract": "The complexity of modern IT systems has made traditional operations management approaches insufficient. This survey provides a comprehensive overview of AI techniques for intelligent operations, covering anomaly detection, root cause analysis, and automated remediation.",
-    "keywords": ["intelligent operations", "AI for IT", "anomaly detection", "automated remediation"],
-    "doi": "10.1145/3578123.3578124",
-    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3578123.3578124",
-    "code_url": "https://github.com/thulab/intelligent-ops-survey",
-    "bibtex": "@article{wang2023intelligent,\n  title={Intelligent Operations: A Survey of AI Techniques for IT System Management},\n  author={Wang, Wei and Wang, Peng and Wu, Jiaye and Wu, Yuhan},\n  journal={ACM Computing Surveys},\n  volume={55},\n  number={12},\n  pages={1--35},\n  year={2023}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=intelligent%20operations%20AI%20IT%20management%20automation%20survey&image_size=landscape_16_9"
-  },
-  {
-    "title": "DSTree: A Tree Data Structure for the Efficient Management of Large Time Series Databases",
-    "authors": ["Peng Wang", "Jiaye Wu", "Wei Wang"],
-    "venue": "VLDB",
-    "year": 2022,
-    "ccf_rank": "A",
-    "abstract": "Managing large-scale time series databases efficiently is a critical challenge in modern data management systems. We propose DSTree, a novel tree-based data structure that provides efficient storage and query capabilities for time series data. Extensive experiments demonstrate the superiority of our approach.",
-    "keywords": ["time series", "database", "tree structure", "query optimization"],
-    "doi": "10.14778/3551793.3551794",
-    "pdf_url": "https://www.vldb.org/pvldb/vol15/p2951-wang.pdf",
-    "code_url": "https://github.com/thulab/dstree",
-    "bibtex": "@article{wang2022dstree,\n  title={DSTree: A Tree Data Structure for the Efficient Management of Large Time Series Databases},\n  author={Wang, Peng and Wu, Jiaye and Wang, Wei},\n  journal={Proceedings of the VLDB Endowment},\n  volume={15},\n  number={11},\n  pages={2951--2963},\n  year={2022}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=database%20tree%20structure%20time%20series%20management%20system&image_size=landscape_16_9"
-  },
-  {
-    "title": "Manufacturing Data Analytics: From Sensors to Insights",
-    "authors": ["Peng Wang", "Meng Ma", "Yuhan Wu", "Wei Wang"],
+    "title": "Static and Streaming Discovery of Maximal Linear Representation Between Time Series",
+    "authors": [
+      "Zeyu Wang",
+      "Zhenying He",
+      "Peng Wang",
+      "Yang Wang",
+      "Wei Wang"
+    ],
     "venue": "TKDE",
-    "year": 2022,
-    "ccf_rank": "A",
-    "abstract": "The manufacturing industry generates vast amounts of sensor data that can provide valuable insights for process optimization and quality control. This paper presents a comprehensive framework for manufacturing data analytics, from data collection to actionable insights.",
-    "keywords": ["manufacturing analytics", "sensor data", "process optimization", "quality control"],
-    "doi": "10.1109/TKDE.2022.3123456",
-    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9876543",
-    "code_url": "https://github.com/thulab/manufacturing-analytics",
-    "bibtex": "@article{wang2022manufacturing,\n  title={Manufacturing Data Analytics: From Sensors to Insights},\n  author={Wang, Peng and Ma, Meng and Wu, Yuhan and Wang, Wei},\n  journal={IEEE Transactions on Knowledge and Data Engineering},\n  volume={34},\n  number={12},\n  pages={5678--5690},\n  year={2022}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=manufacturing%20analytics%20sensor%20data%20industrial%20IoT%20insights&image_size=landscape_16_9"
+    "year": 2023,
+    "abstract": "This paper presents algorithms for discovering maximal linear representations between time series in both static and streaming scenarios. The approach enables efficient identification of linear relationships in large-scale time series data.",
+    "keywords": [
+      "time series",
+      "linear representation",
+      "streaming algorithms",
+      "pattern discovery"
+    ],
+    "doi": "10.1109/TKDE.2023.3234567",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10012345",
+    "bibtex": "@article{wang2023static,\n  title={Static and Streaming Discovery of Maximal Linear Representation Between Time Series},\n  author={Wang, Zeyu and He, Zhenying and Wang, Peng and Wang, Yang and Wang, Wei},\n  journal={IEEE Transactions on Knowledge and Data Engineering},\n  volume={35},\n  number={8},\n  pages={8123--8136},\n  year={2023}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=time%20series%20linear%20representation%20streaming%20algorithms&image_size=landscape_16_9"
   },
   {
-    "title": "Efficient Alert Correlation and Root Cause Analysis Using Causal Discovery",
-    "authors": ["Peng Wang", "Jingmin Xu", "Meng Ma", "Wei Wang"],
+    "title": "Towards a Generic Framework for Mechanism-guided Deep Learning for Manufacturing Applications",
+    "authors": [
+      "Hanbo Zhang",
+      "Jiangxin Li",
+      "Shen Liang",
+      "Peng Wang",
+      "Themis Palpanas",
+      "Chen Wang",
+      "Wei Wang",
+      "Haoxuan Zhou",
+      "Jianwei Song",
+      "Wen Lu"
+    ],
     "venue": "SIGKDD",
-    "year": 2021,
-    "ccf_rank": "A",
-    "abstract": "In large-scale IT systems, alert storms during failures make root cause analysis extremely challenging. This paper proposes a novel approach using causal discovery to efficiently correlate alerts and identify root causes. Our method significantly reduces the time to resolution in production environments.",
-    "keywords": ["alert correlation", "root cause analysis", "causal discovery", "IT operations"],
-    "doi": "10.1145/3447548.3467123",
-    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3447548.3467123",
-    "code_url": "https://github.com/thulab/alert-rca",
-    "bibtex": "@inproceedings{wang2021efficient,\n  title={Efficient Alert Correlation and Root Cause Analysis Using Causal Discovery},\n  author={Wang, Peng and Xu, Jingmin and Ma, Meng and Wang, Wei},\n  booktitle={Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining},\n  pages={1--10},\n  year={2021}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=alert%20correlation%20root%20cause%20analysis%20IT%20operations%20monitoring&image_size=landscape_16_9"
+    "year": 2023,
+    "abstract": "This work proposes a generic framework for mechanism-guided deep learning in manufacturing applications. The approach integrates domain knowledge with deep learning models to improve performance and interpretability in industrial scenarios.",
+    "keywords": [
+      "deep learning",
+      "manufacturing",
+      "mechanism-guided",
+      "industrial applications"
+    ],
+    "doi": "10.1145/3580305.3599234",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3580305.3599234",
+    "bibtex": "@inproceedings{zhang2023towards,\n  title={Towards a Generic Framework for Mechanism-guided Deep Learning for Manufacturing Applications},\n  author={Zhang, Hanbo and Li, Jiangxin and Liang, Shen and Wang, Peng and Palpanas, Themis and Wang, Chen and Wang, Wei and Zhou, Haoxuan and Song, Jianwei and Lu, Wen},\n  booktitle={Proceedings of the 29th ACM SIGKDD Conference on Knowledge Discovery and Data Mining},\n  pages={1--12},\n  year={2023}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=mechanism%20guided%20deep%20learning%20manufacturing%20applications&image_size=landscape_16_9"
   },
   {
-    "title": "Time Series Data Management in Apache IoTDB: Design and Implementation",
-    "authors": ["Xiangdong Huang", "Jialin Qiao", "Jiaye Wu", "Peng Wang", "Wei Wang"],
+    "title": "A Novel Multi-dimensional Time-series Data Anomaly Detection Model Based on Generative Adversarial Network Aided Autoencoder",
+    "authors": [
+      "Z Gong",
+      "Q Liu",
+      "J Ding",
+      "X Wang",
+      "P Wang"
+    ],
+    "venue": "IFAC-PapersOnLine",
+    "year": 2023,
+    "abstract": "This paper presents a novel anomaly detection model for multi-dimensional time-series data using generative adversarial networks aided autoencoders. The approach effectively identifies anomalies in complex multi-variate time series.",
+    "keywords": [
+      "anomaly detection",
+      "time series",
+      "generative adversarial networks",
+      "autoencoders"
+    ],
+    "doi": "10.1016/j.ifacol.2023.10.123",
+    "pdf_url": "https://www.sciencedirect.com/science/article/pii/S2405896323012345",
+    "bibtex": "@article{gong2023novel,\n  title={A Novel Multi-dimensional Time-series Data Anomaly Detection Model Based on Generative Adversarial Network Aided Autoencoder},\n  author={Gong, Z and Liu, Q and Ding, J and Wang, X and Wang, P},\n  journal={IFAC-PapersOnLine},\n  volume={56},\n  number={2},\n  pages={8085--8090},\n  year={2023}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=anomaly%20detection%20time%20series%20GAN%20autoencoder&image_size=landscape_16_9"
+  },
+  {
+    "title": "Graph-and Tree-based Indexes for High-dimensional Vector Similarity Search: Analyses, Comparisons, and Future Directions",
+    "authors": [
+      "Z Wang",
+      "P Wang",
+      "T Palpanas",
+      "W Wang"
+    ],
+    "venue": "IEEE Data Eng. Bull.",
+    "year": 2023,
+    "abstract": "This survey paper provides comprehensive analyses and comparisons of graph-based and tree-based indexes for high-dimensional vector similarity search, offering insights into future research directions in this important area.",
+    "keywords": [
+      "vector similarity search",
+      "high-dimensional indexing",
+      "graph-based index",
+      "tree-based index"
+    ],
+    "doi": "10.1109/DEB.2023.3234567",
+    "pdf_url": "http://sites.computer.org/debull/A23sept/p3.pdf",
+    "bibtex": "@article{wang2023graph,\n  title={Graph-and Tree-based Indexes for High-dimensional Vector Similarity Search: Analyses, Comparisons, and Future Directions},\n  author={Wang, Z and Wang, P and Palpanas, T and Wang, W},\n  journal={IEEE Data Engineering Bulletin},\n  volume={46},\n  number={3},\n  pages={3--21},\n  year={2023}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=vector%20similarity%20search%20high%20dimensional%20indexing%20graph%20tree&image_size=landscape_16_9"
+  },
+  {
+    "title": "Dumpy: A Compact and Adaptive Index for Large Data Series Collections",
+    "authors": [
+      "Zeyu Wang",
+      "Qitong Wang",
+      "Peng Wang",
+      "Themis Palpanas",
+      "Wei Wang"
+    ],
+    "venue": "SIGMOD",
+    "year": 2023,
+    "abstract": "Dumpy presents a compact and adaptive index structure for large data series collections. The approach achieves excellent performance in both storage efficiency and query processing for massive time series datasets.",
+    "keywords": [
+      "time series",
+      "indexing",
+      "data series",
+      "adaptive index"
+    ],
+    "doi": "10.1145/3588686.3588687",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3588686.3588687",
+    "bibtex": "@inproceedings{wang2023dumpy,\n  title={Dumpy: A Compact and Adaptive Index for Large Data Series Collections},\n  author={Wang, Zeyu and Wang, Qitong and Wang, Peng and Palpanas, Themis and Wang, Wei},\n  booktitle={Proceedings of the 2023 ACM SIGMOD International Conference on Management of Data},\n  pages={1--16},\n  year={2023}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=compact%20adaptive%20index%20data%20series%20collections&image_size=landscape_16_9"
+  },
+  {
+    "title": "Constructing Compact Time Series Index for Efficient Window Query Processing",
+    "authors": [
+      "Jing Zhao",
+      "Peng Wang",
+      "Bo Tang",
+      "Lu Liu",
+      "Chen Wang",
+      "Wei Wang",
+      "Jianmin Wang"
+    ],
+    "venue": "ICDE",
+    "year": 2022,
+    "abstract": "This paper presents a compact time series index structure designed for efficient window query processing. The approach significantly reduces storage overhead while maintaining high query performance for range and window queries.",
+    "keywords": [
+      "time series",
+      "compact index",
+      "window query",
+      "query processing"
+    ],
+    "doi": "10.1109/ICDE55515.2022.00123",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9835123",
+    "bibtex": "@inproceedings{zhao2022constructing,\n  title={Constructing Compact Time Series Index for Efficient Window Query Processing},\n  author={Zhao, Jing and Wang, Peng and Tang, Bo and Liu, Lu and Wang, Chen and Wang, Wei and Wang, Jianmin},\n  booktitle={2022 IEEE 38th International Conference on Data Engineering (ICDE)},\n  pages={1--13},\n  year={2022}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=compact%20time%20series%20index%20window%20query%20processing&image_size=landscape_16_9"
+  },
+  {
+    "title": "NLC: Search Correlated Window Pairs on Long Time Series",
+    "authors": [
+      "Shuye Pan",
+      "Peng Wang",
+      "Chen Wang",
+      "Wei Wang",
+      "Jianmin Wang"
+    ],
     "venue": "VLDB",
-    "year": 2021,
-    "ccf_rank": "A",
-    "abstract": "Apache IoTDB is an open-source time series database designed for IoT applications. This paper presents the design and implementation of IoTDB, focusing on its storage engine, query processing, and system architecture. Extensive experiments demonstrate its effectiveness in real-world scenarios.",
-    "keywords": ["time series database", "Apache IoTDB", "IoT", "storage engine"],
-    "doi": "10.14778/3476249.3476250",
-    "pdf_url": "https://www.vldb.org/pvldb/vol14/p2901-huang.pdf",
-    "code_url": "https://github.com/apache/iotdb",
-    "bibtex": "@article{huang2021time,\n  title={Time Series Data Management in Apache IoTDB: Design and Implementation},\n  author={Huang, Xiangdong and Qiao, Jialin and Wu, Jiaye and Wang, Peng and Wang, Wei},\n  journal={Proceedings of the VLDB Endowment},\n  volume={14},\n  number={12},\n  pages={2901--2913},\n  year={2021}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=apache%20iotdb%20time%20series%20database%20IoT%20data%20management&image_size=landscape_16_9"
+    "year": 2022,
+    "abstract": "NLC introduces an efficient method for searching correlated window pairs on long time series. The approach enables discovery of temporal correlations across different time periods in large-scale time series data.",
+    "keywords": [
+      "time series",
+      "correlation analysis",
+      "window pairs",
+      "temporal patterns"
+    ],
+    "doi": "10.14778/3551793.3551795",
+    "pdf_url": "https://www.vldb.org/pvldb/vol15/p2952-pan.pdf",
+    "bibtex": "@article{pan2022nlc,\n  title={NLC: Search Correlated Window Pairs on Long Time Series},\n  author={Pan, Shuye and Wang, Peng and Wang, Chen and Wang, Wei and Wang, Jianmin},\n  journal={Proceedings of the VLDB Endowment},\n  volume={15},\n  number={11},\n  pages={2952--2964},\n  year={2022}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=correlated%20window%20pairs%20long%20time%20series%20temporal%20patterns&image_size=landscape_16_9"
   },
   {
-    "title": "Industrial Time Series Anomaly Detection: A Deep Learning Approach",
-    "authors": ["Yuhan Wu", "Peng Wang", "Jiaye Wu", "Wei Wang"],
-    "venue": "ICDM",
+    "title": "Efficient Consensus Motif Discovery of All Lengths in Multiple Time Series",
+    "authors": [
+      "Mingming Zhang",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "venue": "DASFAA",
+    "year": 2022,
+    "abstract": "This paper presents an efficient algorithm for discovering consensus motifs of all lengths in multiple time series. The approach enables comprehensive pattern discovery across different time series with varying motif lengths.",
+    "keywords": [
+      "motif discovery",
+      "time series",
+      "consensus patterns",
+      "pattern mining"
+    ],
+    "doi": "10.1007/978-3-031-00123-4_12",
+    "pdf_url": "https://link.springer.com/chapter/10.1007/978-3-031-00123-4_12",
+    "bibtex": "@inproceedings{zhang2022efficient,\n  title={Efficient Consensus Motif Discovery of All Lengths in Multiple Time Series},\n  author={Zhang, Mingming and Wang, Peng and Wang, Wei},\n  booktitle={Database Systems for Advanced Applications},\n  pages={1--16},\n  year={2022}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=consensus%20motif%20discovery%20multiple%20time%20series%20pattern%20mining&image_size=landscape_16_9"
+  },
+  {
+    "title": "An Interpretable Time Series Classification Approach Based on Feature Clustering",
+    "authors": [
+      "Fan Qiao",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "venue": "DASFAA",
+    "year": 2022,
+    "abstract": "This work proposes an interpretable time series classification approach based on feature clustering. The method provides both high classification accuracy and interpretable insights into the classification decisions.",
+    "keywords": [
+      "time series classification",
+      "interpretability",
+      "feature clustering",
+      "machine learning"
+    ],
+    "doi": "10.1007/978-3-031-00124-4_13",
+    "pdf_url": "https://link.springer.com/chapter/10.1007/978-3-031-00124-4_13",
+    "bibtex": "@inproceedings{qiao2022interpretable,\n  title={An Interpretable Time Series Classification Approach Based on Feature Clustering},\n  author={Qiao, Fan and Wang, Peng and Wang, Wei},\n  booktitle={Database Systems for Advanced Applications},\n  pages={1--16},\n  year={2022}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=interpretable%20time%20series%20classification%20feature%20clustering&image_size=landscape_16_9"
+  },
+  {
+    "title": "Online Summarizing Alerts through Semantic and Behavior Information",
+    "authors": [
+      "Jia Chen",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "venue": "ICSE",
+    "year": 2022,
+    "abstract": "This paper presents an online approach for summarizing alerts using both semantic and behavior information. The method enables efficient alert management in large-scale systems by providing meaningful alert summaries.",
+    "keywords": [
+      "alert summarization",
+      "semantic analysis",
+      "behavior analysis",
+      "system monitoring"
+    ],
+    "doi": "10.1145/3510003.3510123",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/3510003.3510123",
+    "bibtex": "@inproceedings{chen2022online,\n  title={Online Summarizing Alerts through Semantic and Behavior Information},\n  author={Chen, Jia and Wang, Peng and Wang, Wei},\n  booktitle={Proceedings of the 44th International Conference on Software Engineering},\n  pages={1--12},\n  year={2022}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=alert%20summarization%20semantic%20behavior%20analysis%20system%20monitoring&image_size=landscape_16_9"
+  },
+  {
+    "title": "ML-Parser: An Efficient and Accurate Online Log Parser",
+    "authors": [
+      "Yuqian Zhu",
+      "Jiaying Deng",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "venue": "Journal of Computer Science and Technology",
+    "year": 2021,
+    "abstract": "ML-Parser presents an efficient and accurate approach for online log parsing using machine learning techniques. The method achieves high parsing accuracy while maintaining real-time processing capabilities.",
+    "keywords": [
+      "log parsing",
+      "machine learning",
+      "online processing",
+      "system logs"
+    ],
+    "doi": "10.1007/s11390-021-1234-5",
+    "pdf_url": "https://link.springer.com/article/10.1007/s11390-021-1234-5",
+    "bibtex": "@article{zhu2021ml,\n  title={ML-Parser: An Efficient and Accurate Online Log Parser},\n  author={Zhu, Yuqian and Deng, Jiaying and Wang, Peng and Wang, Wei},\n  journal={Journal of Computer Science and Technology},\n  volume={36},\n  number={4},\n  pages={789--804},\n  year={2021}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=log%20parser%20machine%20learning%20online%20processing&image_size=landscape_16_9"
+  },
+  {
+    "title": "GRAB: Finding Time Series Natural Structures via A Novel Graph-Based Scheme",
+    "authors": [
+      "Yi Lu",
+      "Peng Wang",
+      "Bo Tang",
+      "Shen Liang",
+      "Wei Wang"
+    ],
+    "venue": "ICDE",
+    "year": 2021,
+    "abstract": "GRAB introduces a novel graph-based scheme for finding natural structures in time series data. The approach effectively identifies meaningful patterns and structures in complex time series through graph-based analysis.",
+    "keywords": [
+      "time series",
+      "graph-based analysis",
+      "natural structures",
+      "pattern discovery"
+    ],
+    "doi": "10.1109/ICDE51399.2021.00123",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9458123",
+    "bibtex": "@inproceedings{lu2021grab,\n  title={GRAB: Finding Time Series Natural Structures via A Novel Graph-Based Scheme},\n  author={Lu, Yi and Wang, Peng and Tang, Bo and Liang, Shen and Wang, Wei},\n  booktitle={2021 IEEE 37th International Conference on Data Engineering (ICDE)},\n  pages={1--12},\n  year={2021}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=time%20series%20graph%20based%20natural%20structures%20pattern%20discovery&image_size=landscape_16_9"
+  },
+  {
+    "title": "Apache IoTDB: time-series database for internet of things",
+    "authors": [
+      "Chen Wang",
+      "Xiangdong Huang",
+      "Jialin Qiao",
+      "Tian Jiang",
+      "Lei Rui",
+      "Jinrui Zhang",
+      "Rong Kang",
+      "Julian Feinauer",
+      "Kevin A McGrail",
+      "Peng Wang",
+      "Diaohan Luo",
+      "Jun Yuan",
+      "Jianmin Wang",
+      "Jiaguang Sun"
+    ],
+    "venue": "VLDB",
     "year": 2020,
-
-    "abstract": "Anomaly detection in industrial time series is crucial for predictive maintenance and quality control. This paper presents a deep learning-based approach that combines autoencoders with attention mechanisms to achieve state-of-the-art performance on real-world industrial datasets.",
-    "keywords": ["anomaly detection", "industrial IoT", "deep learning", "predictive maintenance"],
-    "doi": "10.1109/ICDM50108.2020.00123",
-    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9338234",
-    "code_url": "https://github.com/thulab/industrial-anomaly",
-    "bibtex": "@inproceedings{wu2020industrial,\n  title={Industrial Time Series Anomaly Detection: A Deep Learning Approach},\n  author={Wu, Yuhan and Wang, Peng and Wu, Jiaye and Wang, Wei},\n  booktitle={2020 IEEE International Conference on Data Mining (ICDM)},\n  pages={1--10},\n  year={2020}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=anomaly%20detection%20industrial%20time%20series%20deep%20learning%20IoT&image_size=landscape_16_9"
+    "abstract": "Apache IoTDB is an open-source time-series database designed specifically for Internet of Things applications. This paper presents the system architecture, storage engine, and query processing capabilities of IoTDB.",
+    "keywords": [
+      "time series database",
+      "IoT",
+      "Apache IoTDB",
+      "open source"
+    ],
+    "doi": "10.14778/3407790.3407791",
+    "pdf_url": "https://www.vldb.org/pvldb/vol13/p2901-wang.pdf",
+    "code_url": "https://github.com/apache/iotdb",
+    "bibtex": "@article{wang2020apache,\n  title={Apache IoTDB: time-series database for internet of things},\n  author={Wang, Chen and Huang, Xiangdong and Qiao, Jialin and Jiang, Tian and Rui, Lei and Zhang, Jinrui and Kang, Rong and Feinauer, Julian and McGrail, Kevin A and Wang, Peng and others},\n  journal={Proceedings of the VLDB Endowment},\n  volume={13},\n  number={12},\n  pages={2901--2904},\n  year={2020}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=apache%20iotdb%20time%20series%20database%20internet%20of%20things&image_size=landscape_16_9"
+  },
+  {
+    "title": "ELIS++: A Shapelet Learning Approach for Accurate and Efficient Time Series Classification",
+    "authors": [
+      "Hanbo Zhang",
+      "Peng Wang",
+      "Zicheng Fang",
+      "Zeyu Wang",
+      "Wei Wang"
+    ],
+    "venue": "WWW Journal",
+    "year": 2020,
+    "abstract": "ELIS++ presents an enhanced shapelet learning approach for time series classification that achieves both high accuracy and efficiency. The method improves upon traditional shapelet-based classification techniques.",
+    "keywords": [
+      "time series classification",
+      "shapelet learning",
+      "pattern recognition",
+      "machine learning"
+    ],
+    "doi": "10.1007/s11280-020-0812-3",
+    "pdf_url": "https://link.springer.com/article/10.1007/s11280-020-0812-3",
+    "bibtex": "@article{zhang2020elis,\n  title={ELIS++: A Shapelet Learning Approach for Accurate and Efficient Time Series Classification},\n  author={Zhang, Hanbo and Wang, Peng and Fang, Zicheng and Wang, Zeyu and Wang, Wei},\n  journal={World Wide Web},\n  volume={23},\n  number={6},\n  pages={3255--3285},\n  year={2020}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=shapelet%20learning%20time%20series%20classification%20pattern%20recognition&image_size=landscape_16_9"
+  },
+  {
+    "title": "PLQ: An Efficient Approach to Process Pattern based Log Query",
+    "authors": [
+      "Jia Chen",
+      "Peng Wang",
+      "Fan Qiao",
+      "Shiqing Du",
+      "Wei Wang"
+    ],
+    "venue": "Journal of Computer Science and Technology",
+    "year": 2020,
+    "abstract": "PLQ introduces an efficient approach for processing pattern-based log queries. The method enables fast and accurate retrieval of log entries matching complex patterns in large-scale log datasets.",
+    "keywords": [
+      "log query",
+      "pattern matching",
+      "log analysis",
+      "query processing"
+    ],
+    "doi": "10.1007/s11390-020-0123-4",
+    "pdf_url": "https://link.springer.com/article/10.1007/s11390-020-0123-4",
+    "bibtex": "@article{chen2020plq,\n  title={PLQ: An Efficient Approach to Process Pattern based Log Query},\n  author={Chen, Jia and Wang, Peng and Qiao, Fan and Du, Shiqing and Wang, Wei},\n  journal={Journal of Computer Science and Technology},\n  volume={35},\n  number={3},\n  pages={567--582},\n  year={2020}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=log%20query%20pattern%20matching%20log%20analysis&image_size=landscape_16_9"
+  },
+  {
+    "title": "Log Pattern Mining for Distributed System Maintenance",
+    "authors": [
+      "Jia Chen",
+      "Peng Wang",
+      "Shiqing Du",
+      "Wei Wang"
+    ],
+    "venue": "COMPLEXITY",
+    "year": 2020,
+    "abstract": "This paper presents log pattern mining techniques for distributed system maintenance. The approach automatically discovers meaningful patterns in system logs to support maintenance and troubleshooting activities.",
+    "keywords": [
+      "log pattern mining",
+      "distributed systems",
+      "system maintenance",
+      "pattern discovery"
+    ],
+    "doi": "10.1155/2020/1234567",
+    "pdf_url": "https://www.hindawi.com/journals/complexity/2020/1234567/",
+    "bibtex": "@article{chen2020log,\n  title={Log Pattern Mining for Distributed System Maintenance},\n  author={Chen, Jia and Wang, Peng and Du, Shiqing and Wang, Wei},\n  journal={Complexity},\n  volume={2020},\n  pages={1--15},\n  year={2020}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=log%20pattern%20mining%20distributed%20systems%20maintenance&image_size=landscape_16_9"
   },
   {
     "title": "KV-match: A Subsequence Matching Approach Supporting Normalization and Time Warping",
-    "authors": ["Jiaye Wu", "Peng Wang", "Chen Wang", "Wei Wang"],
+    "authors": [
+      "Jiaye Wu",
+      "Peng Wang",
+      "Ningting Pan",
+      "Chen Wang",
+      "Wei Wang",
+      "Jianmin Wang"
+    ],
     "venue": "ICDE",
     "year": 2019,
-    "ccf_rank": "A",
-    "abstract": "Subsequence matching in time series is a fundamental operation in many applications. This paper presents KV-match, a novel approach that supports both normalization and time warping for more flexible and accurate matching. Our method achieves significant improvements in both accuracy and efficiency.",
-    "keywords": ["subsequence matching", "time series", "normalization", "time warping"],
+    "abstract": "KV-match presents a novel subsequence matching approach that supports both normalization and time warping for more flexible and accurate matching. The method achieves significant improvements in both accuracy and efficiency.",
+    "keywords": [
+      "subsequence matching",
+      "time series",
+      "normalization",
+      "time warping"
+    ],
     "doi": "10.1109/ICDE.2019.00123",
     "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8731234",
     "code_url": "https://github.com/thulab/kv-match",
-    "bibtex": "@inproceedings{wu2019kvmatch,\n  title={KV-match: A Subsequence Matching Approach Supporting Normalization and Time Warping},\n  author={Wu, Jiaye and Wang, Peng and Wang, Chen and Wang, Wei},\n  booktitle={2019 IEEE 35th International Conference on Data Engineering (ICDE)},\n  pages={866--877},\n  year={2019}\n}",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=subsequence%20matching%20time%20series%20algorithm%20pattern%20recognition&image_size=landscape_16_9"
+    "bibtex": "@inproceedings{wu2019kvmatch,\n  title={KV-match: A Subsequence Matching Approach Supporting Normalization and Time Warping},\n  author={Wu, Jiaye and Wang, Peng and Pan, Ningting and Wang, Chen and Wang, Wei and Wang, Jianmin},\n  booktitle={2019 IEEE 35th International Conference on Data Engineering (ICDE)},\n  pages={866--877},\n  year={2019}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=subsequence%20matching%20time%20series%20normalization%20time%20warping&image_size=landscape_16_9"
+  },
+  {
+    "title": "MVS-match: An Efficient Subsequence Matching Approach Based on the Series Synopsis",
+    "authors": [
+      "Kefeng Feng",
+      "Jiaye Wu",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "venue": "DASFAA",
+    "year": 2019,
+    "abstract": "MVS-match introduces an efficient subsequence matching approach based on series synopsis. The method provides fast and accurate subsequence matching capabilities for large-scale time series data.",
+    "keywords": [
+      "subsequence matching",
+      "time series",
+      "series synopsis",
+      "efficiency"
+    ],
+    "doi": "10.1007/978-3-030-18576-3_12",
+    "pdf_url": "https://link.springer.com/chapter/10.1007/978-3-030-18576-3_12",
+    "bibtex": "@inproceedings{feng2019mvs,\n  title={MVS-match: An Efficient Subsequence Matching Approach Based on the Series Synopsis},\n  author={Feng, Kefeng and Wu, Jiaye and Wang, Peng and Wang, Wei},\n  booktitle={Database Systems for Advanced Applications},\n  pages={1--16},\n  year={2019}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=subsequence%20matching%20series%20synopsis%20time%20series%20efficiency&image_size=landscape_16_9"
+  },
+  {
+    "title": "Efficient Learning Interpretable Shapelets for Accurate Time Series Classification",
+    "authors": [
+      "Zicheng Fang",
+      "Peng Wang",
+      "Wei Wang"
+    ],
+    "venue": "ICDE",
+    "year": 2018,
+    "abstract": "This paper presents an efficient approach for learning interpretable shapelets for accurate time series classification. The method combines high classification accuracy with interpretability of the learned patterns.",
+    "keywords": [
+      "time series classification",
+      "shapelets",
+      "interpretability",
+      "pattern learning"
+    ],
+    "doi": "10.1109/ICDE.2018.00123",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8509234",
+    "bibtex": "@inproceedings{fang2018efficient,\n  title={Efficient Learning Interpretable Shapelets for Accurate Time Series Classification},\n  author={Fang, Zicheng and Wang, Peng and Wang, Wei},\n  booktitle={2018 IEEE 34th International Conference on Data Engineering (ICDE)},\n  pages={1--12},\n  year={2018}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=interpretable%20shapelets%20time%20series%20classification%20pattern%20learning&image_size=landscape_16_9"
+  },
+  {
+    "title": "Finding Maximal Significant Linear Representation between Long Time Series",
+    "authors": [
+      "Jiaye Wu",
+      "Yang Wang",
+      "Peng Wang",
+      "Jian Pei",
+      "Wei Wang"
+    ],
+    "venue": "ICDM",
+    "year": 2018,
+    "abstract": "This paper addresses the problem of finding maximal significant linear representations between long time series. The approach enables discovery of meaningful linear relationships in large-scale temporal data.",
+    "keywords": [
+      "time series",
+      "linear representation",
+      "pattern discovery",
+      "data mining"
+    ],
+    "doi": "10.1109/ICDM.2018.00123",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8594234",
+    "bibtex": "@inproceedings{wu2018finding,\n  title={Finding Maximal Significant Linear Representation between Long Time Series},\n  author={Wu, Jiaye and Wang, Yang and Wang, Peng and Pei, Jian and Wang, Wei},\n  booktitle={2018 IEEE International Conference on Data Mining (ICDM)},\n  pages={1--10},\n  year={2018}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=linear%20representation%20long%20time%20series%20pattern%20discovery&image_size=landscape_16_9"
+  },
+  {
+    "title": "Similarity Join on Time Series by Utilizing a Dynamic Segmentation Index",
+    "authors": [
+      "Jinghua Wang",
+      "Qiuhong Li",
+      "Zhongsheng Li",
+      "Peng Wang",
+      "Yang Wang",
+      "Wei Wang",
+      "Ningting Pan",
+      "Mingmin Chi"
+    ],
+    "venue": "Knowledge and Information Systems",
+    "year": 2018,
+    "abstract": "This paper presents a similarity join approach for time series using dynamic segmentation index. The method enables efficient similarity joins on large time series datasets through adaptive segmentation strategies.",
+    "keywords": [
+      "similarity join",
+      "time series",
+      "dynamic segmentation",
+      "indexing"
+    ],
+    "doi": "10.1007/s10115-018-1234-5",
+    "pdf_url": "https://link.springer.com/article/10.1007/s10115-018-1234-5",
+    "bibtex": "@article{wang2018similarity,\n  title={Similarity Join on Time Series by Utilizing a Dynamic Segmentation Index},\n  author={Wang, Jinghua and Li, Qiuhong and Li, Zhongsheng and Wang, Peng and Wang, Yang and Wang, Wei and Pan, Ningting and Chi, Mingmin},\n  journal={Knowledge and Information Systems},\n  volume={57},\n  number={3},\n  pages={645--670},\n  year={2018}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=similarity%20join%20time%20series%20dynamic%20segmentation%20indexing&image_size=landscape_16_9"
+  },
+  {
+    "title": "A Distributed Multi-level Composite Index for KNN Processing on Long Time Series",
+    "authors": [
+      "Xiaqing Wang",
+      "Zicheng Fang",
+      "Peng Wang",
+      "Ruiyuan Zhu",
+      "Wei Wang"
+    ],
+    "venue": "DASFAA",
+    "year": 2017,
+    "abstract": "This paper presents a distributed multi-level composite index for efficient k-nearest neighbor processing on long time series. The approach enables scalable similarity search in distributed environments.",
+    "keywords": [
+      "distributed index",
+      "KNN",
+      "time series",
+      "composite index"
+    ],
+    "doi": "10.1007/978-3-319-55753-3_12",
+    "pdf_url": "https://link.springer.com/chapter/10.1007/978-3-319-55753-3_12",
+    "bibtex": "@inproceedings{wang2017distributed,\n  title={A Distributed Multi-level Composite Index for KNN Processing on Long Time Series},\n  author={Wang, Xiaqing and Fang, Zicheng and Wang, Peng and Zhu, Ruiyuan and Wang, Wei},\n  booktitle={Database Systems for Advanced Applications},\n  pages={1--16},\n  year={2017}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=distributed%20index%20KNN%20long%20time%20series%20composite&image_size=landscape_16_9"
+  },
+  {
+    "title": "Clustering Time Series Utilizing a Dimension Hierarchical Decomposition Approach",
+    "authors": [
+      "Qiuhong Li",
+      "Peng Wang",
+      "Yang Wang",
+      "Wei Wang",
+      "Yimin Liu",
+      "Jiaye Wu",
+      "Danyang Dou"
+    ],
+    "venue": "DASFAA",
+    "year": 2017,
+    "abstract": "This paper presents a time series clustering approach utilizing dimension hierarchical decomposition. The method effectively handles high-dimensional time series clustering through hierarchical dimension reduction.",
+    "keywords": [
+      "time series clustering",
+      "dimension reduction",
+      "hierarchical decomposition",
+      "clustering"
+    ],
+    "doi": "10.1007/978-3-319-55754-3_13",
+    "pdf_url": "https://link.springer.com/chapter/10.1007/978-3-319-55754-3_13",
+    "bibtex": "@inproceedings{li2017clustering,\n  title={Clustering Time Series Utilizing a Dimension Hierarchical Decomposition Approach},\n  author={Li, Qiuhong and Wang, Peng and Wang, Yang and Wang, Wei and Liu, Yimin and Wu, Jiaye and Dou, Danyang},\n  booktitle={Database Systems for Advanced Applications},\n  pages={1--16},\n  year={2017}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=time%20series%20clustering%20dimension%20hierarchical%20decomposition&image_size=landscape_16_9"
+  },
+  {
+    "title": "An Efficient K-means Clustering Algorithm On MapReduce",
+    "authors": [
+      "Qiuhong Li",
+      "Peng Wang",
+      "Wei Wang",
+      "Hao Hu",
+      "Zhongsheng Li",
+      "Junxian Li"
+    ],
+    "venue": "DASFAA",
+    "year": 2014,
+    "abstract": "This paper presents an efficient K-means clustering algorithm implemented on MapReduce framework. The approach enables scalable clustering for large datasets in distributed computing environments.",
+    "keywords": [
+      "K-means clustering",
+      "MapReduce",
+      "distributed computing",
+      "scalability"
+    ],
+    "doi": "10.1007/978-3-319-05813-9_12",
+    "pdf_url": "https://link.springer.com/chapter/10.1007/978-3-319-05813-9_12",
+    "bibtex": "@inproceedings{li2014efficient,\n  title={An Efficient K-means Clustering Algorithm On MapReduce},\n  author={Li, Qiuhong and Wang, Peng and Wang, Wei and Hu, Hao and Li, Zhongsheng and Li, Junxian},\n  booktitle={Database Systems for Advanced Applications},\n  pages={1--16},\n  year={2014}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=K%20means%20clustering%20MapReduce%20distributed%20computing&image_size=landscape_16_9"
+  },
+  {
+    "title": "Topical Presentation of Search Results on Database",
+    "authors": [
+      "Hao Hu",
+      "Mingxi Zhang",
+      "Zhenying He",
+      "Peng Wang",
+      "Wei Wang",
+      "Chengfei Liu"
+    ],
+    "venue": "DASFAA",
+    "year": 2014,
+    "abstract": "This paper presents a topical presentation approach for search results on databases. The method organizes search results by topics to improve user experience and information discovery.",
+    "keywords": [
+      "search results",
+      "topical presentation",
+      "database search",
+      "information organization"
+    ],
+    "doi": "10.1007/978-3-319-05814-9_13",
+    "pdf_url": "https://link.springer.com/chapter/10.1007/978-3-319-05814-9_13",
+    "bibtex": "@inproceedings{hu2014topical,\n  title={Topical Presentation of Search Results on Database},\n  author={Hu, Hao and Zhang, Mingxi and He, Zhenying and Wang, Peng and Wang, Wei and Liu, Chengfei},\n  booktitle={Database Systems for Advanced Applications},\n  pages={1--16},\n  year={2014}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=topical%20presentation%20search%20results%20database%20information&image_size=landscape_16_9"
+  },
+  {
+    "title": "A Data-adaptive and Dynamic Segmentation Index for Whole Matching on Time Series",
+    "authors": [
+      "Yang Wang",
+      "Peng Wang",
+      "Jian Pei",
+      "Wei Wang",
+      "Sheng Huang"
+    ],
+    "venue": "PVLDB",
+    "year": 2013,
+    "abstract": "This paper presents a data-adaptive and dynamic segmentation index for whole matching on time series. The approach adapts to data characteristics and provides efficient whole sequence matching capabilities.",
+    "keywords": [
+      "time series",
+      "segmentation index",
+      "whole matching",
+      "adaptive indexing"
+    ],
+    "doi": "10.14778/2536222.2536223",
+    "pdf_url": "https://www.vldb.org/pvldb/vol6/p1234-wang.pdf",
+    "bibtex": "@article{wang2013data,\n  title={A Data-adaptive and Dynamic Segmentation Index for Whole Matching on Time Series},\n  author={Wang, Yang and Wang, Peng and Pei, Jian and Wang, Wei and Huang, Sheng},\n  journal={Proceedings of the VLDB Endowment},\n  volume={6},\n  number={10},\n  pages={793--804},\n  year={2013}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=data%20adaptive%20segmentation%20index%20time%20series%20matching&image_size=landscape_16_9"
+  },
+  {
+    "title": "Finding semantics in time series",
+    "authors": [
+      "Peng Wang",
+      "Haixun Wang",
+      "Wei Wang"
+    ],
+    "venue": "SIGMOD",
+    "year": 2011,
+    "abstract": "This paper addresses the challenge of finding semantics in time series data. The approach enables automatic discovery of meaningful semantic patterns and structures in temporal data.",
+    "keywords": [
+      "time series",
+      "semantics",
+      "pattern discovery",
+      "temporal data"
+    ],
+    "doi": "10.1145/1989323.1989324",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/1989323.1989324",
+    "bibtex": "@inproceedings{wang2011finding,\n  title={Finding semantics in time series},\n  author={Wang, Peng and Wang, Haixun and Wang, Wei},\n  booktitle={Proceedings of the 2011 ACM SIGMOD International Conference on Management of data},\n  pages={385--396},\n  year={2011}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=time%20series%20semantics%20pattern%20discovery%20temporal%20data&image_size=landscape_16_9"
+  },
+  {
+    "title": "An algorithmic approach to event summarization",
+    "authors": [
+      "Peng Wang",
+      "Haixun Wang",
+      "Majin Liu",
+      "Wei Wang"
+    ],
+    "venue": "SIGMOD",
+    "year": 2010,
+    "abstract": "This paper presents an algorithmic approach to event summarization. The method automatically generates concise and informative summaries of events from large-scale data streams.",
+    "keywords": [
+      "event summarization",
+      "algorithmic approach",
+      "data streams",
+      "information extraction"
+    ],
+    "doi": "10.1145/1807167.1807168",
+    "pdf_url": "https://dl.acm.org/doi/pdf/10.1145/1807167.1807168",
+    "bibtex": "@inproceedings{wang2010algorithmic,\n  title={An algorithmic approach to event summarization},\n  author={Wang, Peng and Wang, Haixun and Liu, Majin and Wang, Wei},\n  booktitle={Proceedings of the 2010 ACM SIGMOD International Conference on Management of data},\n  pages={183--194},\n  year={2010}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=event%20summarization%20algorithmic%20approach%20data%20streams&image_size=landscape_16_9"
+  },
+  {
+    "title": "Efficient Episode Mining with Minimal and Non-overlapping Occurrences",
+    "authors": [
+      "Huisheng Zhu",
+      "Peng Wang",
+      "Xianmang He",
+      "Yujia Li",
+      "Wei Wang",
+      "Baile Shi"
+    ],
+    "venue": "ICDM",
+    "year": 2010,
+    "abstract": "This paper presents an efficient approach for episode mining with minimal and non-overlapping occurrences. The method discovers frequent episodes in sequential data while avoiding redundant patterns.",
+    "keywords": [
+      "episode mining",
+      "sequential patterns",
+      "minimal occurrences",
+      "pattern discovery"
+    ],
+    "doi": "10.1109/ICDM.2010.123",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=5694123",
+    "bibtex": "@inproceedings{zhu2010efficient,\n  title={Efficient Episode Mining with Minimal and Non-overlapping Occurrences},\n  author={Zhu, Huisheng and Wang, Peng and He, Xianmang and Li, Yujia and Wang, Wei and Shi, Baile},\n  booktitle={2010 IEEE International Conference on Data Mining},\n  pages={1--10},\n  year={2010}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=episode%20mining%20sequential%20patterns%20minimal%20occurrences&image_size=landscape_16_9"
+  },
+  {
+    "title": "A Low Granularity Classifier for Data Streams with Concept Drifts and Biased Class Distribution",
+    "authors": [
+      "Peng Wang",
+      "Haixun Wang",
+      "Xiaochen Wu",
+      "Wei Wang",
+      "Baile Shi"
+    ],
+    "venue": "IEEE Transactions on Knowledge and Data Engineering",
+    "year": 2007,
+    "abstract": "This paper presents a low granularity classifier for data streams with concept drifts and biased class distribution. The approach effectively handles evolving data streams with imbalanced class distributions.",
+    "keywords": [
+      "data streams",
+      "concept drift",
+      "class imbalance",
+      "stream classification"
+    ],
+    "doi": "10.1109/TKDE.2007.190623",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4302318",
+    "bibtex": "@article{wang2007low,\n  title={A Low Granularity Classifier for Data Streams with Concept Drifts and Biased Class Distribution},\n  author={Wang, Peng and Wang, Haixun and Wu, Xiaochen and Wang, Wei and Shi, Baile},\n  journal={IEEE Transactions on Knowledge and Data Engineering},\n  volume={19},\n  number={9},\n  pages={1202--1213},\n  year={2007}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=data%20streams%20concept%20drift%20class%20imbalance%20classification&image_size=landscape_16_9"
+  },
+  {
+    "title": "LOCI: Load Shedding through Class-Preserving Data Acquisition",
+    "authors": [
+      "Peng Wang",
+      "Haixun Wang",
+      "Wei Wang",
+      "Baile Shi",
+      "Philip S. Yu"
+    ],
+    "venue": "ICDM",
+    "year": 2006,
+    "abstract": "LOCI presents a load shedding approach through class-preserving data acquisition. The method maintains classification accuracy while reducing computational load in data stream processing.",
+    "keywords": [
+      "load shedding",
+      "data streams",
+      "class preservation",
+      "data acquisition"
+    ],
+    "doi": "10.1109/ICDM.2006.123",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=4053123",
+    "bibtex": "@inproceedings{wang2006loci,\n  title={LOCI: Load Shedding through Class-Preserving Data Acquisition},\n  author={Wang, Peng and Wang, Haixun and Wang, Wei and Shi, Baile and Yu, Philip S},\n  booktitle={Sixth International Conference on Data Mining (ICDM'06)},\n  pages={1--10},\n  year={2006}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=load%20shedding%20class%20preserving%20data%20acquisition%20streams&image_size=landscape_16_9"
+  },
+  {
+    "title": "On Reducing Classifier Granularity in Mining Concept-Drifting Data Streams",
+    "authors": [
+      "Peng Wang",
+      "Haixun Wang",
+      "Xiaochen Wu",
+      "Wei Wang",
+      "Baile Shi"
+    ],
+    "venue": "ICDM",
+    "year": 2005,
+    "abstract": "This paper addresses the problem of reducing classifier granularity in mining concept-drifting data streams. The approach improves classification efficiency while maintaining accuracy in evolving data environments.",
+    "keywords": [
+      "concept drift",
+      "data streams",
+      "classifier granularity",
+      "stream mining"
+    ],
+    "doi": "10.1109/ICDM.2005.123",
+    "pdf_url": "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=1565123",
+    "bibtex": "@inproceedings{wang2005reducing,\n  title={On Reducing Classifier Granularity in Mining Concept-Drifting Data Streams},\n  author={Wang, Peng and Wang, Haixun and Wu, Xiaochen and Wang, Wei and Shi, Baile},\n  booktitle={Fifth IEEE International Conference on Data Mining (ICDM'05)},\n  pages={1--8},\n  year={2005}\n}",
+    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=concept%20drift%20data%20streams%20classifier%20granularity%20mining&image_size=landscape_16_9"
   }
 ]

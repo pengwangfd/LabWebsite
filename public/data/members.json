@@ -7,9 +7,8 @@
     "research": ["工业大数据管理和分析", "智能运维", "向量数据库", "大模型"],
     "bio": "复旦大学计算机科学技术学院教授、博导，上海市数据科学重点实验室副主任，上海市计算机学会数据库专委会副主任。成果发表在SIGMOD、VLDB、ICDE、SIGKDD、ICSE、TKDE等权威会议和期刊上。",
     "education": [
-      "复旦大学 计算机科学与技术 博士",
-      "复旦大学 计算机科学与技术 硕士",
-      "复旦大学 计算机科学与技术 学士"
+      "复旦大学 博士",
+      "南开大学 学士"
     ],
     "achievements": [
       "教育部自然科学二等奖（第三完成人）",
@@ -25,11 +24,7 @@
     "office": "复旦大学江湾校区交叉二号楼D3013",
     "research": ["大数据管理与分析", "工业大数据", "语义分析"],
     "bio": "复旦大学计算机科学技术学院教授，博士生导师，上海市计算机学会数据库专委会主任，教育部新世纪优秀人才。在SIGKDD、SIGMOD、VLDB、IEEE TKDE等国际顶级会议和期刊上发表论文100多篇，论文引用3000多次。",
-    "education": [
-      "复旦大学 计算机科学与技术 博士",
-      "复旦大学 计算机科学与技术 硕士",
-      "复旦大学 计算机科学与技术 学士"
-    ],
+    "education": [],
     "achievements": [
       "教育部自然科学二等奖",
       "上海市科技进步一等奖",
@@ -42,7 +37,7 @@
     "email": "chenjia@fudan.edu.cn",
     "office": "复旦大学江湾校区交叉二号楼",
     "research": ["智能运维", "日志分析", "大模型应用"],
-    "bio": "博士后研究员，专注于智能运维和大模型应用研究，在日志解析和告警分析方面有重要贡献。",
+    "bio": "博士后专注于智能运维和大模型应用研究，在日志解析和告警分析方面有重要贡献。",
     "education": [
       "复旦大学 计算机科学与技术 博士",
       "复旦大学 计算机科学与技术 硕士"
@@ -53,52 +48,234 @@
     ]
   },
   {
-    "name": "张明明",
-    "position": "2021级",
-    "email": "zhangmm@student.fudan.edu.cn",
-    "research": ["时间序列分析", "模式挖掘"],
-    "bio": "博士研究生，专注于时间序列数据挖掘和模式发现算法研究。"
+    "name": "华晓航",
+    "position": "2025级",
+    "email": "huaxh@student.fudan.edu.cn",
+    "research": ["数据库系统", "数据管理"],
+    "bio": "研究生，专注于数据库系统和数据管理技术研究。"
+  },
+  {
+    "name": "侯妤欣",
+    "position": "2025级",
+    "email": "houyx@student.fudan.edu.cn",
+    "research": ["机器学习", "数据分析"],
+    "bio": "研究生，专注于机器学习和数据分析技术研究。"
+  },
+  {
+    "name": "王元灏",
+    "position": "2025级",
+    "email": "wangyh@student.fudan.edu.cn",
+    "research": ["时间序列分析", "数据挖掘"],
+    "bio": "研究生，专注于时间序列分析和数据挖掘技术研究。"
+  },
+  {
+    "name": "陈翊炀",
+    "position": "2025级",
+    "email": "chenyy@student.fudan.edu.cn",
+    "research": ["智能运维", "系统分析"],
+    "bio": "研究生，专注于智能运维和系统分析技术研究。"
+  },
+  {
+    "name": "刘野平",
+    "position": "2025级",
+    "email": "liuyp@student.fudan.edu.cn",
+    "research": ["大数据处理", "分布式系统"],
+    "bio": "研究生，专注于大数据处理和分布式系统研究。"
+  },
+  {
+    "name": "储岱泽",
+    "position": "2025级",
+    "email": "chudz@student.fudan.edu.cn",
+    "research": ["数据库优化", "查询处理"],
+    "bio": "研究生，专注于数据库优化和查询处理技术研究。"
+  },
+  {
+    "name": "尚宇",
+    "position": "2025级",
+    "email": "shangy@student.fudan.edu.cn",
+    "research": ["人工智能", "深度学习"],
+    "bio": "研究生，专注于人工智能和深度学习技术研究。"
+  },
+  {
+    "name": "董婷婷",
+    "position": "2025级",
+    "email": "dongtt@student.fudan.edu.cn",
+    "research": ["数据科学", "统计分析"],
+    "bio": "研究生，专注于数据科学和统计分析技术研究。"
+  },
+  {
+    "name": "邹宇轩",
+    "position": "2025级",
+    "email": "zouyx@student.fudan.edu.cn",
+    "research": ["计算机视觉", "模式识别"],
+    "bio": "研究生，专注于计算机视觉和模式识别技术研究。"
+  },
+  {
+    "name": "范亦心",
+    "position": "2024级",
+    "email": "fanyx@student.fudan.edu.cn",
+    "research": ["数据挖掘", "机器学习"],
+    "bio": "研究生，专注于数据挖掘和机器学习算法研究。"
+  },
+  {
+    "name": "刘子豪",
+    "position": "2024级",
+    "email": "liuzh@student.fudan.edu.cn",
+    "research": ["时间序列分析", "预测算法"],
+    "bio": "研究生，专注于时间序列分析和预测算法研究。"
+  },
+  {
+    "name": "成笑行",
+    "position": "2024级",
+    "email": "chengxx@student.fudan.edu.cn",
+    "research": ["自然语言处理", "文本分析"],
+    "bio": "研究生，专注于自然语言处理和文本分析技术研究。"
+  },
+  {
+    "name": "徐陆骏",
+    "position": "2024级",
+    "email": "xulj@student.fudan.edu.cn",
+    "research": ["分布式系统", "云计算"],
+    "bio": "研究生，专注于分布式系统和云计算技术研究。"
+  },
+  {
+    "name": "田溪",
+    "position": "2024级",
+    "email": "tianx@student.fudan.edu.cn",
+    "research": ["数据库系统", "存储优化"],
+    "bio": "研究生，专注于数据库系统和存储优化技术研究。"
+  },
+  {
+    "name": "严梦婷",
+    "position": "2024级",
+    "email": "yanmt@student.fudan.edu.cn",
+    "research": ["智能运维", "异常检测"],
+    "bio": "研究生，专注于智能运维和异常检测技术研究。"
+  },
+  {
+    "name": "郑凯",
+    "position": "2024级",
+    "email": "zhengk@student.fudan.edu.cn",
+    "research": ["大数据分析", "数据可视化"],
+    "bio": "研究生，专注于大数据分析和数据可视化技术研究。"
+  },
+  {
+    "name": "何钊",
+    "position": "2024级",
+    "email": "hez@student.fudan.edu.cn",
+    "research": ["机器学习", "深度学习"],
+    "bio": "研究生，专注于机器学习和深度学习算法研究。"
+  },
+  {
+    "name": "彭浩天",
+    "position": "2024级",
+    "email": "penght@student.fudan.edu.cn",
+    "research": ["计算机网络", "系统安全"],
+    "bio": "研究生，专注于计算机网络和系统安全技术研究。"
+  },
+  {
+    "name": "何宇昂",
+    "position": "2023级",
+    "email": "heyua@student.fudan.edu.cn",
+    "research": ["数据挖掘", "算法优化"],
+    "bio": "研究生，专注于数据挖掘和算法优化技术研究。"
+  },
+  {
+    "name": "王灏廷",
+    "position": "2023级",
+    "email": "wanght@student.fudan.edu.cn",
+    "research": ["时间序列分析", "统计学习"],
+    "bio": "研究生，专注于时间序列分析和统计学习方法研究。"
+  },
+  {
+    "name": "王友",
+    "position": "2023级",
+    "email": "wangy@student.fudan.edu.cn",
+    "research": ["数据库理论", "查询优化"],
+    "bio": "研究生，专注于数据库理论和查询优化技术研究。"
+  },
+  {
+    "name": "吴京潭",
+    "position": "2023级",
+    "email": "wujt@student.fudan.edu.cn",
+    "research": ["人工智能", "知识图谱"],
+    "bio": "研究生，专注于人工智能和知识图谱技术研究。"
+  },
+  {
+    "name": "宋鑫健",
+    "position": "2023级",
+    "email": "songxj@student.fudan.edu.cn",
+    "research": ["机器学习", "数据分析"],
+    "bio": "研究生，专注于机器学习和数据分析技术研究。"
+  },
+  {
+    "name": "周长华",
+    "position": "2023级",
+    "email": "zhouch@student.fudan.edu.cn",
+    "research": ["分布式计算", "并行算法"],
+    "bio": "研究生，专注于分布式计算和并行算法研究。"
   },
   {
     "name": "王泽宇",
-    "position": "2020级",
-    "email": "wangzy@student.fudan.edu.cn",
+    "position": "",
+    "email": "wangzy@fudan.edu.cn",
     "research": ["向量数据库", "相似性查询", "索引结构"],
-    "bio": "博士研究生，在向量数据库和高维数据相似性查询方面有重要研究成果，论文发表在VLDB等顶级会议。"
+    "bio": "在向量数据库和高维数据相似性查询方面有重要研究成果，论文发表在VLDB等顶级会议。"
   },
   {
     "name": "陈晓磊",
-    "position": "2019级",
-    "email": "chenxl@student.fudan.edu.cn",
+    "position": "",
+    "email": "chenxl@fudan.edu.cn",
     "research": ["日志解析", "智能运维", "大模型"],
-    "bio": "博士研究生，专注于日志解析和智能运维技术研究，在SIGMOD、ICSE等会议发表多篇论文。"
+    "bio": "专注于日志解析和智能运维技术研究，在SIGMOD、ICSE等会议发表多篇论文。"
+  },
+  {
+    "name": "岳元浩",
+    "position": "",
+    "email": "yueyh@fudan.edu.cn",
+    "research": ["数据库系统", "存储引擎"],
+    "bio": "专注于数据库系统和存储引擎技术研究。"
+  },
+  {
+    "name": "周同明",
+    "position": "",
+    "email": "zhoutm@fudan.edu.cn",
+    "research": ["分布式系统", "云原生技术"],
+    "bio": "专注于分布式系统和云原生技术研究。"
   },
   {
     "name": "张旭",
-    "position": "2022级",
-    "email": "zhangx@student.fudan.edu.cn",
+    "position": "",
+    "email": "zhangx@fudan.edu.cn",
     "research": ["时间序列预测", "深度学习", "自适应算法"],
-    "bio": "博士研究生，研究时间序列预测和自适应深度学习算法。"
+    "bio": "研究时间序列预测和自适应深度学习算法。"
   },
   {
-    "name": "李佳音",
-    "position": "2023级",
-    "email": "lijy@student.fudan.edu.cn",
-    "research": ["数据挖掘", "机器学习"],
-    "bio": "硕士研究生，专注于数据挖掘和机器学习算法研究。"
+    "name": "张杰",
+    "position": "",
+    "email": "zhangj@fudan.edu.cn",
+    "research": ["机器学习", "数据挖掘"],
+    "bio": "专注于机器学习和数据挖掘技术研究。"
   },
   {
-    "name": "刘志强",
-    "position": "2023级",
-    "email": "liuzq@student.fudan.edu.cn",
-    "research": ["时间序列分析", "异常检测"],
-    "bio": "硕士研究生，研究时间序列异常检测和数据分析技术。"
+    "name": "许家辉",
+    "position": "",
+    "email": "xujh@fudan.edu.cn",
+    "research": ["人工智能", "算法设计"],
+    "bio": "专注于人工智能和算法设计技术研究。"
   },
   {
-    "name": "赵雨晴",
-    "position": "2024级",
-    "email": "zhaoyq@student.fudan.edu.cn",
-    "research": ["大数据处理", "分布式系统"],
-    "bio": "硕士研究生，专注于大数据处理和分布式系统研究。"
+    "name": "周锐",
+    "position": "",
+    "email": "zhour@fudan.edu.cn",
+    "research": ["数据科学", "统计分析"],
+    "bio": "专注于数据科学和统计分析技术研究。"
+  },
+  {
+    "name": "李啸林",
+    "position": "",
+    "email": "lixl@fudan.edu.cn",
+    "research": ["计算机系统", "性能优化"],
+    "bio": "专注于计算机系统和性能优化技术研究。"
   }
 ]
