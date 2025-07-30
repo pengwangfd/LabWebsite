@@ -24,5 +24,5 @@ export default defineConfig({
       '@': path.resolve(__dirname, './src'), // ✅ 定义 @ = src
     },
   },
-  base: process.env.NODE_ENV === 'production' ? '/LabVue/' : '/',
+  base: '/',
 })
