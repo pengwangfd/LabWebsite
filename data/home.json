@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "title": "Fudan AIoT Lab",
+    "subtitle": "人工智能物联网前沿技术研究",
+    "description": "复旦大学AIoT实验室专注于大规模数据管理与分析、智能运维、工业大数据分析等前沿技术研究，致力于推动人工智能与物联网技术的深度融合与产业应用。",
+    "backgroundImage": "https://via.placeholder.com/1920x1080/1E40AF/FFFFFF?text=Fudan+AIoT+Lab"
+  },
+
+  "features": [
+    {
+      "icon": "Database",
+      "title": "大数据管理和查询处理",
+      "description": "研究向量数据库、时间序列管理等核心技术，在VLDB、SIGMOD等顶级会议发表多项成果。"
+    },
+    {
+      "icon": "Settings",
+      "title": "智能运维",
+      "description": "专注于大规模日志处理、告警收敛和根因定位、异构运维大数据管理等智能运维技术研究。"
+    },
+    {
+      "icon": "Brain",
+      "title": "大模型通用技术",
+      "description": "研究RAG检索增强、大模型Agent、基于大模型的自然语言转查询等前沿技术。"
+    },
+    {
+      "icon": "BarChart3",
+      "title": "工业大数据分析",
+      "description": "时序数据挖掘、工业应用场景分析，成果应用在高铁、船舶、卫星、汽车等多个领域。"
+    }
+  ],
+  "footer": {
+    "description": "致力于人工智能与物联网前沿技术研究，推动科技创新与产业应用的深度融合",
+    "contact": {
+      "email": "pengwang5@fudan.edu.cn",
+      "address": "复旦大学江湾校区交叉二号楼D3013",
+      "github": "https://github.com/fudan-aiot-lab"
+    }
+  }
+}
