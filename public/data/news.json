@@ -5,7 +5,7 @@
     "content": "<p>2022年9月4日，王鹏教授受邀在华为云联创营云上综合治理班发表了题为《关于智能运维中算法落地的一些思考》的主题演讲。</p><p>王教授结合多年来在智能运维领域的研究经验和产业合作实践，深入分析了智能运维算法从理论研究到实际应用过程中面临的关键挑战，包括数据质量、算法适配性、系统集成等核心问题。</p><p>演讲中，王教授特别强调了算法落地过程中需要重点关注的实际因素，如生产环境的复杂性、运维人员的接受度、系统的可解释性等，为参会的企业技术人员提供了宝贵的实践指导。</p><p>此次分享充分体现了学术界与产业界深度合作的价值，为推动智能运维技术的产业化应用提供了有益的思路和方法。</p>",
     "author": "实验室",
     "date": "2022-09-04",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=intelligent%20operations%20algorithm%20implementation%20huawei%20cloud&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "王鹏教授在Gdevops全球敏捷运维峰会探讨智能运维发展",
@@ -13,7 +13,7 @@
     "content": "<p>2022年6月17日，王鹏教授在广州举办的Gdevops全球敏捷运维峰会上发表了题为《算法落地探究：如何让智能运维更智能》的重要演讲。</p><p>王教授从算法设计、数据处理、系统架构等多个维度，深入探讨了如何提升智能运维系统的智能化水平。他分享了团队在异常检测、根因分析、自动化修复等关键技术领域的最新研究成果和实践经验。</p><p>演讲中，王教授特别强调了数据驱动的重要性，指出高质量的数据是智能运维算法发挥效果的基础，同时介绍了如何通过算法优化和系统设计来应对实际运维场景中的复杂挑战。</p><p>此次演讲受到了与会专家和企业代表的高度关注，为智能运维技术的发展和应用提供了重要的理论指导和实践参考。</p>",
     "author": "实验室",
     "date": "2022-06-17",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=gdevops%20intelligent%20operations%20algorithm%20implementation%20conference&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "王鹏教授在GOPS全球运维大会探讨智能运维的实用性",
@@ -21,7 +21,7 @@
     "content": "<p>2021年5月21日，王鹏教授在GOPS全球运维大会上发表了题为《智能运维的实用性和易用性探索》的重要演讲。</p><p>王教授从用户体验和实际应用的角度，深入分析了当前智能运维技术在实用性和易用性方面存在的挑战和改进方向。他强调，智能运维技术不仅要在算法性能上取得突破，更要关注用户的实际需求和使用体验。</p><p>演讲中，王教授分享了团队在提升智能运维系统易用性方面的探索，包括界面设计优化、操作流程简化、结果可视化等方面的创新实践。他指出，只有真正解决用户痛点的技术才能在实际应用中发挥价值。</p><p>此次演讲为智能运维技术的发展提供了新的思路，强调了技术研发与用户需求相结合的重要性，对推动智能运维技术的产业化应用具有重要意义。</p>",
     "author": "实验室",
     "date": "2021-05-21",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=GOPS%20intelligent%20operations%20usability%20practicality%20conference&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "王鹏教授团队在SIGMOD 2024发表时间序列索引重要成果",
@@ -29,7 +29,7 @@
     "content": "<p>近日，复旦大学计算机科学技术学院王鹏教授团队在数据库领域顶级会议SIGMOD 2024上发表了题为《Dumpy: A Compact and Scalable Index for Large Collections of Time Series》的重要研究成果。</p><p>该研究针对大规模时间序列数据管理中的索引问题，提出了一种新颖的Dumpy索引结构，在存储效率和查询性能方面都取得了显著突破。实验结果表明，相比现有方法，Dumpy索引在存储空间上节省了30-50%，查询性能提升了2-5倍。</p><p>这一成果对于物联网、工业监控、金融分析等领域的时间序列数据处理具有重要意义，为构建高效的时序数据库系统提供了理论基础和技术支撑。</p>",
     "author": "实验室",
     "date": "2024-06-15",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=SIGMOD%20conference%20database%20research%20time%20series%20indexing&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "实验室在ICSE 2024发表大模型运维应用研究",
@@ -37,7 +37,7 @@
     "content": "<p>王鹏教授团队在软件工程领域顶级会议ICSE 2024上发表了题为《Large Language Models for Intelligent Operations: Opportunities and Challenges》的重要研究成果。</p><p>该研究深入探讨了大语言模型在智能运维领域的应用潜力，系统分析了在IT系统管理和自动化中部署LLMs面临的机遇与挑战。</p><p>研究提出了基于大模型的智能运维框架，为运维自动化、故障诊断、系统优化等关键问题提供了新的解决思路。</p><p>这一成果体现了实验室在人工智能与系统运维交叉领域的前瞻性研究，为推动智能运维技术发展提供了重要理论指导。</p>",
     "author": "实验室",
     "date": "2024-04-20",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=ICSE%20software%20engineering%20large%20language%20models%20intelligent%20operations&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "智能运维技术综述论文在ACM Computing Surveys发表",
@@ -45,7 +45,7 @@
     "content": "<p>汪卫教授团队在计算机科学领域顶级期刊ACM Computing Surveys上发表了题为《Intelligent Operations: A Survey of AI Techniques for IT System Management》的重要综述论文。</p><p>该综述全面梳理了AI技术在智能运维领域的应用现状，涵盖异常检测、根因分析、自动化修复等关键技术方向，为该领域的研究者和实践者提供了宝贵的技术指导。</p><p>论文系统分析了现代IT系统复杂性带来的运维挑战，深入探讨了各种AI技术的适用场景和发展趋势。</p><p>这一综述性成果为智能运维领域的发展提供了重要的理论基础和技术路线图，具有重要的学术价值和实践意义。</p>",
     "author": "实验室",
     "date": "2023-11-15",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=ACM%20computing%20surveys%20intelligent%20operations%20AI%20IT%20management&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "时间序列相似性搜索技术在VLDB 2023发表",
@@ -53,7 +53,7 @@
     "content": "<p>实验室在数据库领域顶级会议VLDB 2023上发表了题为《Scalable Time Series Similarity Search with Apache IoTDB》的重要研究成果。</p><p>该研究提出了一种与Apache IoTDB集成的可扩展时间序列相似性搜索方法，支持在海量时间序列集合上进行高效的相似性搜索。</p><p>实验结果表明，相比现有解决方案，该方法实现了数量级的性能提升，为大规模时序数据分析提供了强有力的技术支撑。</p><p>这一成果进一步推动了Apache IoTDB在时序数据管理领域的技术发展，为全球用户提供了更高效的数据分析能力。</p>",
     "author": "实验室",
     "date": "2023-09-05",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=VLDB%20time%20series%20similarity%20search%20apache%20iotdb%20scalable&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "实验室在Apache IoTDB项目中贡献突出算法成果",
@@ -61,7 +61,7 @@
     "content": "<p>近期，王鹏教授团队开发的KV-match子序列匹配算法成功集成到Apache IoTDB开源项目中，这是实验室在开源社区的重要贡献。</p><p>Apache IoTDB是Apache软件基金会的顶级项目，专为物联网时间序列数据管理而设计。KV-match算法的集成显著提升了IoTDB在时间序列相似性查询方面的性能，为全球用户提供了更高效的数据分析能力。</p><p>该算法支持归一化和时间扭曲，能够实现更灵活和准确的子序列匹配，在工业监控、智能制造等领域具有广泛的应用前景。</p><p>这一成果体现了实验室在时间序列数据管理领域的技术实力，也展现了学术研究与开源社区合作的重要价值。</p>",
     "author": "实验室",
     "date": "2023-08-10",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=apache%20iotdb%20open%20source%20time%20series%20database%20contribution&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "智维大模型联合实验室正式成立",
@@ -69,7 +69,7 @@
     "content": "<p>2023年1月，复旦大学计算机科学技术学院与中国移动通信集团有限公司正式签署合作协议，共同成立智维大模型联合实验室。</p><p>该联合实验室将聚焦于大模型在智能运维领域的应用研究，重点开展运维大模型训练与微调、智能运维Agent构建、自动故障定位技术、运维知识图谱构建等方向的研究工作。</p><p>实验室将通过大规模排障指令数据，全参数微调大模型，增强面向运维的规划能力和工具调用准确性，构建各个领域的运维智能体，支持自动故障定位和排障。</p><p>这一合作标志着学术界与产业界在智能运维领域的深度融合，将为推动我国智能运维技术发展做出重要贡献。</p>",
     "author": "实验室",
     "date": "2023-01-20",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=joint%20laboratory%20intelligent%20operations%20large%20language%20model%20cooperation&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "制造大数据分析项目取得重要进展",
@@ -77,7 +77,7 @@
     "content": "<p>由王鹏教授主持的科技部重点研发计划项目《制造大数据分析关键技术与算法》取得重要阶段性成果。</p><p>项目团队在时间序列数据挖掘、工况自动识别、设备故障预测等核心技术方面实现了重要突破。开发的算法和系统已在高铁、船舶、卫星、汽车等制造领域得到验证，并在沪东中华、铁科院、上汽等知名企业成功落地应用。</p><p>特别是在工业4.0背景下，项目成果为制造业从海量时序数据中提取有价值信息提供了有效解决方案，对推动我国制造业智能化转型具有重要意义。</p><p>该项目的成功实施展现了实验室在产学研结合方面的优势，为科技成果转化提供了典型案例。</p>",
     "author": "实验室",
     "date": "2022-11-25",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=manufacturing%20big%20data%20analysis%20industrial%20application%20technology&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "实验室在VLDB发表DSTree索引结构重要成果",
@@ -85,7 +85,7 @@
     "content": "<p>王鹏教授团队在数据库领域顶级期刊VLDB 2022上发表了题为《DSTree: A Tree Data Structure for the Efficient Management of Large Time Series Databases》的重要研究成果。</p><p>DSTree是一种新颖的树形数据结构，专门针对大规模时间序列数据库的高效管理而设计。该结构在存储效率和查询性能方面都表现出色，为时序数据管理提供了新的技术路径。</p><p>相关成果被VLDB综述论文评为最推荐算法，在时间序列数据库领域产生了重要影响。该算法已被多个开源项目采用，为全球时序数据管理提供了技术支撑。</p><p>这一成果进一步巩固了实验室在时间序列数据管理领域的学术地位，为后续研究奠定了坚实基础。</p>",
     "author": "实验室",
     "date": "2022-09-15",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=VLDB%20database%20conference%20tree%20data%20structure%20research&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "华为合作项目在智能运维领域取得突破",
@@ -93,7 +93,7 @@
     "content": "<p>实验室与华为技术有限公司合作开展的《告警因果关系挖掘和根因定位技术》项目取得重要成果。</p><p>项目针对IT系统故障时产生的大量告警问题，开发了基于内容和时序的告警收敛算法、基于拓扑的告警关联分析技术、机器学习驱动的根因定位方法等核心技术。</p><p>相关算法已在华为无线网络、公有云等多个业务场景中成功落地应用，显著提升了运维效率，减少了故障处理时间。</p><p>这一合作项目展现了实验室在智能运维领域的技术实力，也为产学研合作提供了成功范例。</p>",
     "author": "实验室",
     "date": "2020-10-30",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=intelligent%20operations%20alert%20correlation%20root%20cause%20analysis%20huawei&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   },
   {
     "title": "国家自然科学基金重点项目圆满结题",
@@ -101,6 +101,6 @@
     "content": "<p>由汪卫教授主持的国家自然科学基金联合基金重点项目《面向工业应用的大数据分析理论与关键技术》圆满结题。</p><p>项目历时4年，在工业大数据分析的理论基础和关键技术方面取得了重要突破，构建了完整的工业大数据分析体系。项目期间发表SIGKDD、SIGMOD、VLDB等顶级论文20余篇，申请发明专利8项，培养博士硕士研究生20余名。</p><p>相关技术在华为、阿里巴巴、上汽集团等多家知名企业得到应用，产生了显著的经济效益和社会效益。</p><p>该项目的成功实施为我国工业4.0发展提供了重要的数据分析技术支撑，推动了产业智能化转型。</p>",
     "author": "实验室",
     "date": "2019-12-20",
-    "image": "https://trae-api-sg.mchost.guru/api/ide/v1/text_to_image?prompt=national%20science%20foundation%20industrial%20big%20data%20analysis%20research&image_size=landscape_16_9"
+    "image": "https://via.placeholder.com/400x225/8B5CF6/FFFFFF"
   }
 ]

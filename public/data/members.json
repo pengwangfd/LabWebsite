@@ -217,63 +217,63 @@
   },
   {
     "name": "王泽宇",
-    "position": "",
+    "position": "其他年级",
     "email": "wangzy@fudan.edu.cn",
     "research": ["向量数据库", "相似性查询", "索引结构"],
     "bio": "在向量数据库和高维数据相似性查询方面有重要研究成果，论文发表在VLDB等顶级会议。"
   },
   {
     "name": "陈晓磊",
-    "position": "",
+    "position": "其他年级",
     "email": "chenxl@fudan.edu.cn",
     "research": ["日志解析", "智能运维", "大模型"],
     "bio": "专注于日志解析和智能运维技术研究，在SIGMOD、ICSE等会议发表多篇论文。"
   },
   {
     "name": "岳元浩",
-    "position": "",
+    "position": "其他年级",
     "email": "yueyh@fudan.edu.cn",
     "research": ["数据库系统", "存储引擎"],
     "bio": "专注于数据库系统和存储引擎技术研究。"
   },
   {
     "name": "周同明",
-    "position": "",
+    "position": "其他年级",
     "email": "zhoutm@fudan.edu.cn",
     "research": ["分布式系统", "云原生技术"],
     "bio": "专注于分布式系统和云原生技术研究。"
   },
   {
     "name": "张旭",
-    "position": "",
+    "position": "其他年级",
     "email": "zhangx@fudan.edu.cn",
     "research": ["时间序列预测", "深度学习", "自适应算法"],
     "bio": "研究时间序列预测和自适应深度学习算法。"
   },
   {
     "name": "张杰",
-    "position": "",
+    "position": "其他年级",
     "email": "zhangj@fudan.edu.cn",
     "research": ["机器学习", "数据挖掘"],
     "bio": "专注于机器学习和数据挖掘技术研究。"
   },
   {
     "name": "许家辉",
-    "position": "",
+    "position": "其他年级",
     "email": "xujh@fudan.edu.cn",
     "research": ["人工智能", "算法设计"],
     "bio": "专注于人工智能和算法设计技术研究。"
   },
   {
     "name": "周锐",
-    "position": "",
+    "position": "其他年级",
     "email": "zhour@fudan.edu.cn",
     "research": ["数据科学", "统计分析"],
     "bio": "专注于数据科学和统计分析技术研究。"
   },
   {
     "name": "李啸林",
-    "position": "",
+    "position": "其他年级",
     "email": "lixl@fudan.edu.cn",
     "research": ["计算机系统", "性能优化"],
     "bio": "专注于计算机系统和性能优化技术研究。"
