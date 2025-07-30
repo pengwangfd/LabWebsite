@@ -6,7 +6,7 @@
         <div class="flex items-center">
           <router-link to="/" class="flex items-center space-x-2">
             <div class="w-8 h-8 bg-gradient-to-br from-blue-600 to-blue-800 rounded-lg flex items-center justify-center">
-              <span class="text-white font-bold text-sm">Lab</span>
+              <span class="text-white font-bold text-sm">AIoT</span>
             </div>
             <span class="text-xl font-bold text-gray-900">Fudan AIoT Lab</span>
           </router-link>

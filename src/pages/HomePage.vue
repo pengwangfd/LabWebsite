@@ -27,7 +27,7 @@
       <!-- Content -->
       <div class="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h1 class="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-          {{ homeData.hero?.title || 'AI Research Lab' }}
+          {{ homeData.hero?.title || 'Fudan AIoT Lab' }}
         </h1>
         <p class="text-xl md:text-2xl mb-4 text-blue-100">
           {{ homeData.hero?.subtitle || '探索人工智能前沿，推动科技创新发展' }}
@@ -168,7 +168,7 @@ interface NewsItem {
 
 const homeData = ref<HomeData>({
   hero: {
-    title: 'AI Research Lab',
+    title: 'Fudan AIoT Lab',
     subtitle: '探索人工智能前沿，推动科技创新发展',
     description: '',
     backgroundImage: ''
